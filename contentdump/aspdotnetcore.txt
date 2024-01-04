@@ -1,0 +1,13 @@
+ASP.NET Core is a web framework developed by Microsoft, while .NET Core is a general-purpose, cross-platform development platform. Here are the key differences between ASP.NET Core and .NET Core:
+
+1. Purpose: ASP.NET Core is specifically designed for building web applications and APIs. It provides a robust framework for developing web applications, handling requests, managing routing, and rendering views. On the other hand, .NET Core is a broader platform that can be used for building a variety of applications, including web, desktop, and mobile applications.
+
+2. Framework vs. Runtime: ASP.NET Core is built on top of the .NET Core runtime. The runtime provides the foundational components and infrastructure required to execute ASP.NET Core applications. .NET Core, on the other hand, is the underlying platform that provides a runtime, libraries, and tools for building various types of applications.
+
+3. Web-specific Features: ASP.NET Core includes features and libraries tailored for web development, such as built-in support for MVC (Model-View-Controller) pattern, Razor Pages for server-side rendering, SignalR for real-time communication, and middleware for request handling and processing. These features are not part of the core .NET Core platform, as they are specific to web development.
+
+4. Cross-Platform Compatibility: Both ASP.NET Core and .NET Core are designed to be cross-platform. They can run on multiple operating systems, including Windows, macOS, and Linux. This allows developers to build applications that can be deployed on a wide range of platforms.
+
+5. Development Workflow: While both ASP.NET Core and .NET Core can be developed using the same set of tools and IDEs, the development workflow for each is slightly different. When building an ASP.NET Core application, you primarily work with web-related concepts and components, such as controllers, views, and routes. With .NET Core, you have a broader range of options for application types, including console applications, Windows Forms, WPF, and more.
+
+In summary, ASP.NET Core is a web-specific framework built on top of the .NET Core runtime. It provides web-related features and libraries for building web applications and APIs. .NET Core, on the other hand, is a more general-purpose development platform that can be used for building a wide variety of applications, not limited to web development.

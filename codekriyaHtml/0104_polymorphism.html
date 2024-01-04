@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.NET Framework</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2></h2>
+			<center>
+				<img src="images/CLR_ExecutionModel.png" alt="CLR_ExecutionModel"/>
+				<br/>
+				Fig.1 The .NET 2-Step compilation process.
+			</center>
+		</div>
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+				<ol class="square">
+					 <li>A <span>set of compilers</span> (C# compiler, VB.NET compiler, VC++.NET compiler, J# compiler etc.)</li>
+					 <li>The <span>Just In Time (JIT) compiler</span></li>
+					 <li>The <span>Common Language Runtime (CLR)</span></li>
+					 <li>The <span>MSIL (Microsoft Intermediate Language)</span> formats.</li>
+					 <li>Framework service components like Garbage Collector (GC), <span>Process Optimizer</span> etc.</li>
+				</ol>
+			Writing code for the .NET Framework using languages like C# and getting the output as MSIL, and then further compiling it to the native code (called as <span>2-STEP compilation</span>) has ONE BIG Advantage - <a href="#platformindependence">Platform Independence</a>.
+		</div>	
+	</div>
+</div>	
+</body>
+</html>
+
+
+

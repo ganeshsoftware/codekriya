@@ -1,0 +1,200 @@
+<h4>Variables</h4>
+
+<p>
+Variables represent storage locations. Every variable has a type that determines what values can be 
+stored in the variable. C# is a type-safe language, and the C# compiler guarantees that values stored 
+in variables are always of the appropriate type. The value of a variable can be changed through 
+assignment or through use of the ++ and -- operators.
+</p>
+
+<p>
+A variable shall be definitely assigned before its value can be obtained.
+</p>
+
+
+<p>
+    As described in the following subclauses, variables are either initially assigned or initially unassigned.
+    An initially assigned variable has a well-defined initial value and is always considered definitely 
+    assigned. An initially unassigned variable has no initial value. For an initially unassigned variable 
+    to be considered definitely assigned at a certain location, an assignment to the variable shall occur 
+    in every possible execution path leading to that location.
+</p>
+
+<a href ="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables">Microsoft Definition</a>
+
+
+<p>
+    CSharp defines seven categories of variables: 
+    <ol>
+        <li>Static variables</li>
+        <li>Instance variables</li>
+        <li>Array elements</li>
+        <li>Value parameters</li>
+        <li>Reference parameters</li>
+        <li>Output parameters</li>
+        <li>Local variables</li>
+    </ol>
+</p>
+
+
+
+
+<pre>
+    <code>
+    class A
+    {
+        public static int x;
+        int y;
+
+        void F(int[] v, int a, ref int b, out int c)
+        {
+            int i = 1;
+            c = a + b++;
+        }
+    } 
+    </code>
+</pre>
+
+
+<hr/>
+
+<h4>Constants</h4> 
+
+<p>
+Constants are fields whose values are set at compile time and can never be changed. Use constants to provide meaningful names instead of numeric literals ("magic numbers") for special values.
+</p>
+
+<p>
+<h5>Integral Constants - Enums</h5>
+To define constant values of integral types (int, byte, and so on) use an enumerated type. For more information, see enum.
+</p>
+
+<p>
+<h5>NonIntegral Constants - Static Class</h5>
+To define non-integral constants, one approach is to group them in a single static class named Constants. This will require that all references to the constants be prefaced with the class name, as shown in the following example.
+</p>
+
+<pre>
+ static class Constants
+ {
+     public const double Pi = 3.14159;
+     public const int SpeedOfLight = 300000; // km per sec.
+ }
+
+ class Program
+ {
+     static void Main()
+     {
+         double radius = 5.3;
+         double area = Constants.Pi * (radius * radius);
+         int secsFromSun = 149476000 / Constants.SpeedOfLight; // in km
+         Console.WriteLine(secsFromSun);
+     }
+ }
+</pre>
+
+
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-define-constants">Microsoft Reference on Constants</a>
+
+
+<hr/>
+
+
+<h4>Identifiers</h4> 
+
+<p>
+In C, C++, C# and other programming languages, an identifier is a name that is assigned by the user for 
+a program element such as variable, type, template, class, function or namespace. It is usually limited 
+to letters, digits, and underscores. Certain words, such as "new," "int" and "break," are reserved 
+keywords and cannot be used as identifiers. Identifiers are used to identify a program element in the 
+code. 
+</p>
+
+<p>
+Computer languages have restrictions for which characters can appear in an identifier. For example, 
+in early versions of the C and C++ languages, identifiers were restricted to a sequence of one or 
+more ASCII letters, digits, which may not appear as the first character, and underscores. 
+Later versions of these languages support almost all Unicode characters in an identifier with the 
+exception of white space characters and language operators.
+</p>
+
+<p>
+You designate an identifier by declaring it early in the code. Then, you can use that identifier later 
+in the program to refer to the value you assigned to the identifier.
+</p>
+
+
+<h5>Rules for Identifiers:</h5>
+When naming an identifier, follow these established rules:
+
+<ol>
+    <li>
+        An identifier cannot be a C# keyword. Keywords have predefined special meanings to the compiler.
+    </li>
+    <li>
+        It cannot have two consecutive underscores.        
+    </li>
+    <li>
+        It can be a combination of numbers, letters, connectors, and Unicode characters.
+    </li>
+    <li>
+        It must start with a letter of the alphabet or an underscore, not a number.        
+    </li>
+    <li>
+        It should not include white space.It cannot have more than 511 characters.It has to be declared 
+        before it is referred.Two identifiers cannot have the same name.
+    </li>
+    <li>
+        Identifiers are case sensitive.
+    </li>
+</ol>
+
+<b>Important:</b>
+For implementations of programming languages that are compiled, identifiers are often only 
+compile-time entities. That is, at run time the compiled program contains references to memory 
+addresses and offsets rather than the textual identifier tokens—these memory addresses or offsets 
+having been assigned by the compiler to each identifier.
+
+<p></p>
+
+<h5>Verbatim Identifiers:</h5>
+Adding the prefix 'at_the_rate' to a keyword enables the keyword, which is normally reserved, to be used as 
+an identifier, which can be useful when interfacing with other programming languages. The at_the_rate is 
+not considered part of the identifier, so it might not be recognized in some languages. It is a special 
+indicator to not treat what comes after it as a keyword, but rather as an identifier. This type of 
+identifier is called a verbatim identifier. Using verbatim identifiers is allowed but strongly 
+discouraged as a matter of style.
+
+<b>Source</b>: <a href="https://www.thoughtco.com/definition-of-identifier-958092#:~:text=In%20C%2C%20C%2B%2B%2C%20C%23%20and%20other%20programming%20languages%2C,is%20usually%20limited%20to%20letters%2C%20digits%2C%20and%20underscores.">Thought Co COM</a>
+
+<hr/>
+
+
+<h4>Reserved Words</h4> 
+<p>
+    In a computer language, a reserved word (also known as a reserved identifier) is a word that cannot be 
+    used as an identifier, such as the name of a variable, function, or label it is "reserved from use". 
+    This is a syntactic definition, and a reserved word may have no user-defined meaning.
+</p>
+
+<p>
+    A closely related and often conflated notion is a keyword, which is a word with special meaning in a 
+    particular context. This is a semantic definition. By contrast, names in a standard library but not 
+    built into the language are not considered reserved words or keywords. The terms "reserved word" and 
+    "keyword" are often used interchangeably one may say that a reserved word is "reserved for use as a 
+    keyword" and formal use varies from language to language; for this article we distinguish as above.
+</p>
+
+<p>
+    In general reserved words and keywords need not coincide, but in most modern languages keywords 
+    are a subset of reserved words, as this makes parsing easier, since keywords cannot be confused 
+    with identifiers. In some languages, like C or Python, reserved words and keywords coincide, 
+    while in other languages, like Java, all keywords are reserved words, but some reserved words
+    are not keywords – these are "reserved for future use". In yet other languages, such as the older 
+    languages ALGOL, FORTRAN and PLI, there are keywords but no reserved words, with keywords being 
+    distinguished from identifiers by other means.
+</p>
+
+<hr/>
+
+<h4>Keywords</h4>

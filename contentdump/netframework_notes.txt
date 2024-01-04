@@ -1,0 +1,94 @@
+NET Architecture
+
+1.	netframeworkcslang.html        The .NET framework and C# language. 
+how .NET framework serves as an independent platform in which you can develop and deploy programs using the C# PL.
+
+
+2.	netbuildingblocks.html            Building Blocks 
+The CLR, JIT Compiler, CIL, MSIL, Native Code, Assemblies are the building blocks of the .NET framework.
+
+
+3.	netframeworkclasses.html       .NET Framework Classes (FCL / BCL).
+These are the inbuilt classes of the .NET framework developed by Microsoft and other third parties (like Telerik). Using these classes (categorized in namespaces), developers can build their applications.
+
+
+
+
+1) Common Language Runtime (CLR):
+.NET provides a run-time environment called the common language runtime that runs the code and provides services that make the development process easier.	
+
+The Common Language Runtime (CLR) is the virtual machine component of Microsoft .NET Framework that  manages the execution of .NET programs. Just-in-time compilation converts the managed code (compiled intermediate language code) into machine instructions which are then executed on the CPU of the computer. The CLR provides additional services including memory management, type safety, exception handling, garbage collection, security and thread management. All programs written for the .NET Framework, regardless of programming language, are executed in the CLR. All versions of the .NET Framework include CLR. 
+
+CLR implements the Virtual Execution System (VES) as defined in the Common Language Infrastructure (CLI) standard, initially developed by Microsoft itself. A public standard defines the Common Language Infrastructure specification.
+
+With Microsoft's move to .NET Core, the CLI VES implementation is known as CoreCLR instead of CLR.
+
+Overview of the Common Language Runtime release history
+CLR version	.NET version
+1.0	1.0
+1.1	1.1
+2.0	2.0, 3.0, 3.5
+4	4, 4.5, 4.6, 4.7, 4.8
+
+Reference - https://en.wikipedia.org/wiki/Common_Language_Runtime.html
+
+
+
+2) JIT Compiler
+
+Just-In-Time compiler(JIT) is a part of Common Language Runtime (CLR) in .NET which is responsible for managing the execution of .NET programs regardless of any .NET programming language. A language-specific compiler converts the source code to the intermediate language. This intermediate language is then converted into the machine code by the Just-In-Time (JIT) compiler. This machine code is specific to the computer environment that the JIT compiler runs on. 
+
+
+3) Command Line Interface (CIL)
+The .NET command-line interface (CLI) is a cross-platform toolchain for developing, building, running, and publishing .NET applications. new, restore, build, publish, run, clean, test, help, migrate etc are some basic examples of the basic CLI commands. Apart from these, there are CLI commands to modify projects, nuget commands, tool management commands etc.
+
+examples:
+
+dotnet new console
+dotnet build --output ./build_output
+dotnet ./build_output/my_app.dll
+
+
+
+
+4) Microsoft Intermediate Language (MSIL)
+
+MSIL stands for Microsoft Intermediate Language. We can call it as Intermediate Language (IL) or Common Intermediate Language (CIL). During the compile time , the compiler convert the source code into Microsoft Intermediate Language (MSIL) .Microsoft Intermediate Language (MSIL) is a CPU-independent set of instructions that can be efficiently converted to the native code. During the runtime the Common Language Runtime (CLR)'s Just In Time (JIT) compiler converts the Microsoft Intermediate Language (MSIL) code into native code to the Operating System.
+
+When a compiler produces Microsoft Intermediate Language (MSIL), it also produces Metadata. The Microsoft Intermediate Language (MSIL) and Metadata are contained in a portable executable (PE) file . Microsoft Intermediate Language (MSIL) includes instructions for loading, storing, initializing, and calling methods on objects, as well as instructions for arithmetic and logical operations, control flow, direct memory access, exception handling, and other operations
+
+Link - http://vb.net-informations.com/framework/microsoft_intermediate_language.htm
+
+
+
+
+5) Native Code
+
+Native code is computer programming (code) that is compiled to run with a particular processor (such as an Intel x86-class processor) and its set of instructions. If the same program is run on a computer with a different processor, software can be provided so that the computer emulates the original processor. In this case, the original program runs in "emulation mode" on the new processor and almost certainly more slowly than in native mode on the original processor. (The program can be rewritten and recompiled so that it runs on the new processor in native mode.)
+
+Native code can also be distinguished from bytecode (sometimes called interpreted code), a form of code that can be said to run in a virtual machine (for example, the Java Virtual Machine). The virtual machine is a program that converts the platform-generalized bytecode into the native code that will run in a specific processor. Microsoft's .NET compilers for its Visual Basic, C#, and JavaScript languages produce bytecode (which Microsoft calls Intermediate Language). Java bytecode and Microsoft's Intermediate Language can be compiled into native code before execution by a just-in-time compiler for faster performance.
+
+Link - 
+https://www.techtarget.com/searchapparchitecture/definition/native-code#:~:text=Native%20code%20is%20computer%20programming,computer%20emulates%20the%20original%20processor. 
+
+
+
+6) ASSEMBLIES:
+An assembly in the Common Language Infrastructure (CLI) is a compiled code library used for deployment, versioning, and security. There are two types: Process assemblies (EXE) and Library assemblies (DLL). A process assembly represents a process that will use classes defined in library assemblies. CLI assemblies contain code in CIL, which is usually generated from a CLI language, and then compiled into machine language at run time by the just-in-time compiler. In the .NET Framework implementation, this compiler is part of the Common Language Runtime (CLR).
+
+An assembly can consist of one or more files. Code files are called modules. An assembly can contain more than one code module. And since it is possible to use different languages to create code modules, it is technically possible to use several different languages to create an assembly.
+
+
+The name of an assembly consists of four parts
+
+a) The short name. On Windows this is the name of the Portable Executable (PE) file without the extension.
+b) The culture. This is an RFC 1766 identifier of the locale for the assembly. In general, library and process assemblies should be culture neutral; the culture should only be used for satellite assemblies.
+c) The version. This is a dotted number made up of four values — major, minor, build and revision.
+d) A public key token. This is a 64-bit hash of the public key that corresponds to the private key used to sign[1] the assembly. A signed assembly is said to have a strong name.
+
+The public key token is used to make the assembly name unique. Thus, two strong named assemblies can have the same PE file name and yet the CLI will recognize them as different assemblies. The Windows file system (FAT32 and NTFS) only recognizes the PE file name, so two assemblies with the same PE file name (but different culture, version or public key token) cannot exist in the same Windows folder. To solve this issue, the CLI introduces the GAC (Global Assembly Cache) that is treated as a single folder by run-time, but is actually implemented using nested file system folders.
+
+To prevent spoofing attacks, where a cracker would try to pass off an assembly appearing as something else, the assembly is signed with a private key. The developer of the intended assembly keeps the private key secret, so a cracker cannot have access to it nor simply guess it. Thus the cracker cannot make his assembly impersonate something else, lacking the possibility to sign it correctly after the change. Signing the assembly involves taking a hash of important parts of the assembly and then encrypting the hash with the private key. The signed hash is stored in the assembly along with the public key. The public key will decrypt the signed hash. When the CLR loads a strongly named assembly it will generate a hash from the assembly and then compare this with the decrypted hash. If the comparison succeeds then it means that the public key in the file (and hence the public key token) is associated with the private key used to sign the assembly. This will mean that the public key in the assembly is the public key of the assembly publisher and hence a spoofing attack is prevented.
+
+Link: https://en.wikipedia.org/wiki/Assembly_(CLI).html
+

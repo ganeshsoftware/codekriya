@@ -1,0 +1,736 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = codekriyaApp
+build_property.RootNamespace = codekriyaApp
+build_property.ProjectDir = E:\MiniProjects\codekriya\codekriyaApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\MiniProjects\codekriya\codekriyaApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/ADONET_Entity_Framework/DBContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURPTkVUX0VudGl0eV9GcmFtZXdvcmtcREJDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/ADONET_Entity_Framework/EFRelationships.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURPTkVUX0VudGl0eV9GcmFtZXdvcmtcRUZSZWxhdGlvbnNoaXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/ADONET_Entity_Framework/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURPTkVUX0VudGl0eV9GcmFtZXdvcmtcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/ADONET_Entity_Framework/Object_Relational_Mapping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURPTkVUX0VudGl0eV9GcmFtZXdvcmtcT2JqZWN0X1JlbGF0aW9uYWxfTWFwcGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/ADONET_Entity_Framework/Reading_Writing_Data_To_DB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURPTkVUX0VudGl0eV9GcmFtZXdvcmtcUmVhZGluZ19Xcml0aW5nX0RhdGFfVG9fREIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Assembly_Linking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xBc3NlbWJseV9MaW5raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Assembly_Types.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xBc3NlbWJseV9UeXBlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Attributes_Built_CustomAttributes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xBdHRyaWJ1dGVzX0J1aWx0X0N1c3RvbUF0dHJpYnV0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Delayed_Signing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xEZWxheWVkX1NpZ25pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/GACUtil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xHQUNVdGlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Localization_Globalization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xMb2NhbGl6YXRpb25fR2xvYmFsaXphdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Namespaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xOYW1lc3BhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/NET_Reflection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xORVRfUmVmbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/Private_Public_Satellite_Assemblies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xQcml2YXRlX1B1YmxpY19TYXRlbGxpdGVfQXNzZW1ibGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Assemblies/StrongNaming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW1ibGllc1xTdHJvbmdOYW1pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Asynchronous_Programming/AsynchronousCallbacks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXN5bmNocm9ub3VzX1Byb2dyYW1taW5nXEFzeW5jaHJvbm91c0NhbGxiYWNrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Asynchronous_Programming/AsynchronousProgramming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXN5bmNocm9ub3VzX1Byb2dyYW1taW5nXEFzeW5jaHJvbm91c1Byb2dyYW1taW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Asynchronous_Programming/ErrorHandling.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXN5bmNocm9ub3VzX1Byb2dyYW1taW5nXEVycm9ySGFuZGxpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Asynchronous_Programming/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXN5bmNocm9ub3VzX1Byb2dyYW1taW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/ArrayLists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcQXJyYXlMaXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Arrays_1D_2D_3D.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcQXJyYXlzXzFEXzJEXzNELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/BitArrays.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcQml0QXJyYXlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Dictionary_TKey_TValue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcRGljdGlvbmFyeV9US2V5X1RWYWx1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Generics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcR2VuZXJpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/HashTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcSGFzaFRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/JaggedArrays.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcSmFnZ2VkQXJyYXlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/LinkedLists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcTGlua2VkTGlzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Queue_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcUXVldWVfVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Sets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcU2V0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/SortedLists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcU29ydGVkTGlzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collections_Generics/Stack_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNfR2VuZXJpY3NcU3RhY2tfVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/ICollection_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJQ29sbGVjdGlvbl9ULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/IDictionary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJRGljdGlvbmFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/IEnumerable_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJRW51bWVyYWJsZV9ULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/IEnumerator_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJRW51bWVyYXRvcl9ULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/IList_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJTGlzdF9ULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Collection_BuiltInInterfaces/IQueryable_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbl9CdWlsdEluSW50ZXJmYWNlc1xJUXVlcnlhYmxlX1QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/Dependency_Injection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXERlcGVuZGVuY3lfSW5qZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/Dependency_Inversion_Principle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXERlcGVuZGVuY3lfSW52ZXJzaW9uX1ByaW5jaXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/Introduction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXEludHJvZHVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/Inversion_Control_Principle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXEludmVyc2lvbl9Db250cm9sX1ByaW5jaXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/DI_IOC/IoC_Container.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRElfSU9DXElvQ19Db250YWluZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Builtin_Exceptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcQnVpbHRpbl9FeGNlcHRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/CustomException.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcQ3VzdG9tRXhjZXB0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Diff_Errors_Exception.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcRGlmZl9FcnJvcnNfRXhjZXB0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Exception_Hierarchy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcRXhjZXB0aW9uX0hpZXJhcmNoeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Throw_Keyword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcVGhyb3dfS2V5d29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Errors_Exceptions/Try_catch_finally.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzX0V4Y2VwdGlvbnNcVHJ5X2NhdGNoX2ZpbmFsbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/AnonymousMethods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXEFub255bW91c01ldGhvZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/AsynchronousCallbacks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXEFzeW5jaHJvbm91c0NhbGxiYWNrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/Events_Event_Handlers_NET.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXEV2ZW50c19FdmVudF9IYW5kbGVyc19ORVQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/ExpressionTrees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXEV4cHJlc3Npb25UcmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/LambdaExpressions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXExhbWJkYUV4cHJlc3Npb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/Linq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXExpbnEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Events_Delegates_Lambdas/UserDefinedDelegates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzX0RlbGVnYXRlc19MYW1iZGFzXFVzZXJEZWZpbmVkRGVsZWdhdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/CLI_Commands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENMSV9Db21tYW5kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Console_IO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENvbnNvbGVfSU8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/CS_Comments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENTX0NvbW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/CS_OperatorsCasts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENTX09wZXJhdG9yc0Nhc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/CS_PreprocessorDirectives.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENTX1ByZXByb2Nlc3NvckRpcmVjdGl2ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/CTS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XENUUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Enumerations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XEVudW1lcmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/FlowControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XEZsb3dDb250cm9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/FundamentalCS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XEZ1bmRhbWVudGFsQ1MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Main_Method.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XE1haW5fTWV0aG9kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Memory_Management_Pointers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XE1lbW9yeV9NYW5hZ2VtZW50X1BvaW50ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Namespaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XE5hbWVzcGFjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/GettingStartedWithCS6/Variables_Constants_Identifiers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0dGluZ1N0YXJ0ZWRXaXRoQ1M2XFZhcmlhYmxlc19Db25zdGFudHNfSWRlbnRpZmllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Home/Microsoft_Dotnet_with_Csharp  Creating_WebApps_Applications_With_ASPNET.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNaWNyb3NvZnRfRG90bmV0X3dpdGhfQ3NoYXJwICBDcmVhdGluZ19XZWJBcHBzX0FwcGxpY2F0aW9uc19XaXRoX0FTUE5FVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Home/Microsoft_Dotnet_with_Csharp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNaWNyb3NvZnRfRG90bmV0X3dpdGhfQ3NoYXJwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/DriveInfo_DirectoryInfo_FileInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXERyaXZlSW5mb19EaXJlY3RvcnlJbmZvX0ZpbGVJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/FileManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXEZpbGVNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Filestreams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXEZpbGVzdHJlYW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/FileSystemTypes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXEZpbGVTeXN0ZW1UeXBlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/ManagingFileSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXE1hbmFnaW5nRmlsZVN5c3RlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/MappedMemoryFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXE1hcHBlZE1lbW9yeUZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/MovingCopyingDeletingFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXE1vdmluZ0NvcHlpbmdEZWxldGluZ0ZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Reading_Writing_Data_Files.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXFJlYWRpbmdfV3JpdGluZ19EYXRhX0ZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Streamwriter_Streamreader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXFN0cmVhbXdyaXRlcl9TdHJlYW1yZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Stringwriter_Stringreader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXFN0cmluZ3dyaXRlcl9TdHJpbmdyZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Manipulating_Files/Textwriter_Textreader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGF0aW5nX0ZpbGVzXFRleHR3cml0ZXJfVGV4dHJlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Dispose_Finalize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcRGlzcG9zZV9GaW5hbGl6ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/FreeingManagedAndUnmanagedResources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcRnJlZWluZ01hbmFnZWRBbmRVbm1hbmFnZWRSZXNvdXJjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Garbage_Collector.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcR2FyYmFnZV9Db2xsZWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Generations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcR2VuZXJhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/IDisposable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcSURpc3Bvc2FibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Pointers_NET.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcUG9pbnRlcnNfTkVULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Theory_ManagedHeap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcVGhlb3J5X01hbmFnZWRIZWFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Unmanaged_Resources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcVW5tYW5hZ2VkX1Jlc291cmNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Memory_Management_Pointers/Weak_Strong_References.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtb3J5X01hbmFnZW1lbnRfUG9pbnRlcnNcV2Vha19TdHJvbmdfUmVmZXJlbmNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/ADONET_Entity_Framework.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxBRE9ORVRfRW50aXR5X0ZyYW1ld29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Assemblies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxBc3NlbWJsaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Asynchronous_Programming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxBc3luY2hyb25vdXNfUHJvZ3JhbW1pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/BuildingBlocks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxCdWlsZGluZ0Jsb2Nrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/CLI_Commands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDTElfQ29tbWFuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Collections_Generics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDb2xsZWN0aW9uc19HZW5lcmljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Collection_BuiltInInterfaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDb2xsZWN0aW9uX0J1aWx0SW5JbnRlcmZhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Console_IO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDb25zb2xlX0lPLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/CS_Operators_Casts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDU19PcGVyYXRvcnNfQ2FzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/CS_Preprocessor_Directives.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDU19QcmVwcm9jZXNzb3JfRGlyZWN0aXZlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/CTS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxDVFMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/DI_IOC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxESV9JT0MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Enumerations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxFbnVtZXJhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Errors_Exceptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxFcnJvcnNfRXhjZXB0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Events_Delegates_Lambdas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxFdmVudHNfRGVsZWdhdGVzX0xhbWJkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/FCL_BCL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxGQ0xfQkNMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/FlowControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxGbG93Q29udHJvbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Fundamental_CS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxGdW5kYW1lbnRhbF9DUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/GettingStartedWithCS6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxHZXR0aW5nU3RhcnRlZFdpdGhDUzYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/MainMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxNYWluTWV0aG9kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Manipulating_Files.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxNYW5pcHVsYXRpbmdfRmlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Namespaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxOYW1lc3BhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/NetFramework_And_Csharp_Lang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxOZXRGcmFtZXdvcmtfQW5kX0NzaGFycF9MYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/NET_Architecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxORVRfQXJjaGl0ZWN0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/NET_framework_and_CSLang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxORVRfZnJhbWV3b3JrX2FuZF9DU0xhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/OOPS_CS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxPT1BTX0NTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Reflection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxSZWZsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Strings_RE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxTdHJpbmdzX1JFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Tasks_Threads_Synchronization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxUYXNrc19UaHJlYWRzX1N5bmNocm9uaXphdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/UsingComments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxVc2luZ0NvbW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Microsoft_Dotnet_with_Csharp/Variables_Constants_Identifiers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWljcm9zb2Z0X0RvdG5ldF93aXRoX0NzaGFycFxWYXJpYWJsZXNfQ29uc3RhbnRzX0lkZW50aWZpZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETArchitecture/BuildingBlocks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQXJjaGl0ZWN0dXJlXEJ1aWxkaW5nQmxvY2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETArchitecture/FCL_BCL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQXJjaGl0ZWN0dXJlXEZDTF9CQ0wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETArchitecture/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQXJjaGl0ZWN0dXJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETArchitecture/NETFramework_CSLanguage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQXJjaGl0ZWN0dXJlXE5FVEZyYW1ld29ya19DU0xhbmd1YWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Console_IO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xDb25zb2xlX0lPLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Enumerations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xFbnVtZXJhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/FlowControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xGbG93Q29udHJvbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/GettingStartedWithCS6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xHZXR0aW5nU3RhcnRlZFdpdGhDUzYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Main_Method.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xNYWluX01ldGhvZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Namespaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xOYW1lc3BhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/NET_Architecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xORVRfQXJjaGl0ZWN0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/NETCore6CS/Variables_Constants_Identifiers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkVUQ29yZTZDU1xWYXJpYWJsZXNfQ29uc3RhbnRzX0lkZW50aWZpZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Abstraction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xBYnN0cmFjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/AccessModifiers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xBY2Nlc3NNb2RpZmllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/AnonymousTypes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xBbm9ueW1vdXNUeXBlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Classes_Structures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xDbGFzc2VzX1N0cnVjdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Encapsulation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xFbmNhcHN1bGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Inheritance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xJbmhlcml0YW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Interfaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xJbnRlcmZhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/ObjectClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xPYmplY3RDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/PartialClasses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xQYXJ0aWFsQ2xhc3Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/PassByValuePassByRef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xQYXNzQnlWYWx1ZVBhc3NCeVJlZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Pillars_OOPS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xQaWxsYXJzX09PUFMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/Polymorphism.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xQb2x5bW9ycGhpc20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/SealedMethods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xTZWFsZWRNZXRob2RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/StaticThings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xTdGF0aWNUaGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/OOPS_CS/VirtualMethods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT09QU19DU1xWaXJ0dWFsTWV0aG9kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/CommonlyStringMethods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxDb21tb25seVN0cmluZ01ldGhvZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/CSharpStrings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxDU2hhcnBTdHJpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/CustomRE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxDdXN0b21SRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/RegularExpressions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxSZWd1bGFyRXhwcmVzc2lvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Strings_RE/StringImmutability.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyaW5nc19SRVxTdHJpbmdJbW11dGFiaWxpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/AsyncAwait.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cQXN5bmNBd2FpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/Multithreading_AnOverview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cTXVsdGl0aHJlYWRpbmdfQW5PdmVydmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/Task_T.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cVGFza19ULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/TheThreadClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cVGhlVGhyZWFkQ2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/ThreadPools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cVGhyZWFkUG9vbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Tasks_Threads_Synchronization/ThreadStates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NfVGhyZWFkc19TeW5jaHJvbml6YXRpb25cVGhyZWFkU3RhdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MiniProjects/codekriya/codekriyaApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7v44b20ew5

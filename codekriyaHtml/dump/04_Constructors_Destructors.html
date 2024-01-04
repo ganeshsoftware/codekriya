@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Constructors and Destructors</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div id="top"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<ol>
+				<li><a href="#constructors">Constructors</a></li>
+				<li><a href="#destructors">Destructors</a></li>
+			</ol>
+		</div>	
+	</div>
+	
+	
+	<div id="constructors"/>	
+	<div class = "row">	
+		<div class="col-sm-12 normaltext">
+			<h2>Constructors</h2>
+			<hr/>
+			<a href="#classconstructor">Class Constructor</a>
+			<a href="#structconstructor">Struct Constructor</a>
+		</div>
+	</div>
+	
+	
+	
+	<div id="classconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h3>Class Constructors</h3>			
+			<p>
+			The constructor is a special method which is invoked automatically at the time of instance/ object creation of that class. Mostly, it is used to initialize the data members of the new object. The constructor in C# has the same name as of class or struct. 
+			</p>
+			<p>
+			The Class Constructors are basically 5 types:
+				<ol>
+					<li><a href="#defaultconstructor">Default Constructor.</a></li>
+					<li><a href="#parameterizedconstructor">Parameterized Constructor.</a></li>
+					<li><a href="#copyconstructor">Copy Constructor.</a></li>
+					<li><a href="#staticconstructor">Static Constructor.</a></li>
+					<li><a href="#privateconstructor">Private Constructor.</a></li>
+				</ol>
+			</p>
+		</div>	
+	</div>	
+	
+	
+	
+	<div id="defaultconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h4>Default Constructor.</h4>			
+			<p>
+			A constructor without any parameters is called a default constructor; in other words, this type of constructor does not take parameters. The drawback of a default constructor is that every instance of the class will be initialized to the same values and it is not possible to initialize each instance of the class with different values. 
+			</p>
+			<p>
+			The default constructor initializes: 
+				<ol>
+					<li>All numeric fields in the class to zero. </li>
+					<li>All string and object fields to null.</li>
+					<li>All date time objects are initialized to 01/01/1700</li>
+					<li>All Boolean values are initialized to false.</li>
+					<li>The enum types takes the first value in the enumeration.</li>
+				</ol>
+			</p>
+		</div>	
+	</div>	
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files for DEFAULT CONSTRUCTORS"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>		
+	
+	
+	
+	<div id="parameterizedconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h4>Parameterized Constructor.</h4>			
+			<p>
+			Constructor with at least one parameter is called a parameterized constructor. The advantage of a parameterized constructor is that you can initialize each instance of the class with a different value.
+			</p>
+			<p>
+			There can be any number of parameterized constructor in a class. The only criteria is that the signature should be different. This is called as Constructor Overloading.
+			</p>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files for PARAMETERIZED CONSTRUCTORS"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>		
+	
+	
+	
+	<div id="copyconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h4>Copy Constructor.</h4>			
+			<p>
+			The constructor which creates an object by copying variables from another object is called a copy constructor. The purpose of a copy constructor is to initialize a new instance to the values of an existing instance.
+			</p>
+		</div>	
+	</div>		
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files for COPY CONSTRUCTORS"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>
+
+
+	
+	
+	<div id="staticconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h4>Static Constructor.</h4>			
+			<p>
+			When a constructor is created using a static keyword, it will be invoked only once for all of the instances of the class and it is invoked during the creation of the first instance of the class or the first reference to a static member in the class. A static constructor is used to initialize static fields of the class and to write the code that needs to be executed only once.
+			</p>
+			<p>
+				<ol>
+					<li>A static constructor does not take access modifiers or have parameters.</li>
+					<li>A static constructor is called automatically to initialize the class before the first instance is created or any static members are referenced.</li>
+					<li>A static constructor cannot be called directly.</li>
+					<li>The user has no control over when the static constructor is executed in the program.</li>
+					<li>A typical use of static constructors is when the class is using a log file and the constructor is used to write entries to this file.</li>
+				</ol>
+			</p>
+		</div>	
+	</div>		
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files for STATIC CONSTRUCTORS"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+	<div id="privateconstructor"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h4>Private Constructor.</h4>			
+			<p>
+			When a constructor is created with a private specifier, it is not possible for other classes to derive from this class, neither is it possible to create an instance of this class. They are usually used in classes that contain static members only. Some key points of a private constructor are:
+			</p>
+			<p>
+				<ol>
+					<li>One use of a private constructor is when we have only static members.</li>
+					<li>It provides an implementation of a singleton class pattern</li>
+					<li>Once we provide a constructor that is either private or public or any, the compiler will not add the parameter-less public constructor to the class.</li>
+				</ol>
+
+			</p>
+		</div>	
+	</div>	
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files for PRIVATE CONSTRUCTORS"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>		
+	
+	
+	
+	
+	
+	
+	<!--   S T R U C T  -  C O N S T R U C T O R  -->
+	<div id="structconstructor"/>
+	<div class="row">
+		<div class="col-sm-12 normaltext">	
+			<h3>Struct Constructors</h3>	
+			<p>
+			Structs has only parameterized constructors. The only requirement for a constructor in a struct is that all the member fields should be initialized during the construction process.
+			</p>
+		</div>
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files - STRUCT CONSTRUCTORS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- D E S C T R U C T O R S    -->
+	<div id="destructors"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Destructors</h2>			
+			<p>
+			Destructors in C# are methods inside the class used to destroy instances of that class when they are no longer needed. The Destructor is called implicitly by the .NET Framework’s Garbage collector and therefore programmer has no control as when to invoke the destructor. An instance variable or an object is eligible for destruction when it is no longer reachable. 
+			</p>
+			<p>
+			The Class Constructors are basically 5 types:
+			<ol>
+				<li>A Destructor is unique to its class i.e. there cannot be more than one destructor in a class.</li>
+				<li>A Destructor has no return type and has exactly the same name as the class name (Including the same case).</li>
+				<li>It is distinguished apart from a constructor because of the Tilde symbol (~) prefixed to its name.</li>
+				<li>A Destructor does not accept any parameters and modifiers.</li>
+				<li>It cannot be defined in Structures. It is only used with classes.</li>
+				<li>It cannot be overloaded or inherited.</li>
+				<li>It is called when the program exits.</li>
+				<li>Internally, Destructor called the Finalize() on the base class of object.</li>
+			</ol>
+			</p>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download files - DESTRUCTORS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+</div>
+
+</body>
+</html>
+
+
+

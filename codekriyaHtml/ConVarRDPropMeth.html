@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Constants, Variables, Readonlys, Methods</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+</head>
+
+<body>
+<p>
+	<h2>Constants, Variables, ReadOnlys, Properties and Methods.</h2>
+	Constants, Variables, ReadOnlys, Properties and Methods are the buidling blocks of any programs which are resident 
+	either in a class or in struct.
+	
+	<ol>
+		<li><a href="">Constants</a></li>
+		<li><a href="">Variables</a></li>
+		<li><a href="">ReadOnlys</a></li>
+		<li><a href="">Properties</a></li>
+		<li><a href="">Methods</a></li>
+	</ol>
+</p>	
+
+<p>
+	<h4>Constants</h4>
+	Constants are immutable values which are known at compile time and do not change for the life of 
+	the program. Constants are declared with the const modifier. Only the C# built-in types (excluding 
+	System.Object) may be declared as const.
+	Important: User-defined types, including classes, structs, and arrays, cannot be const.They can be only readonlys for that. 
+</p>
+
+<p>
+	<h4>Variables</h4>
+	A variable or scalar is a storage address (identified by a memory address) paired with an associated 
+	symbolic name, which contains some known or unknown quantity of information referred to as a value. 
+	The variable name is the usual way to reference the stored value, in addition to referring to the 
+	variable itself, depending on the context. This separation of name and content allows the name to be 
+	used independently of the exact information it represents. The identifier in computer source code 
+	can be bound to a value during run time, and the value of the variable may thus change during the 
+	course of program execution.
+</p>
+
+<p>
+	<h4>Read-Onlys</h4>
+	In c#, readonly is a keyword which is useful to define read-only fields in our applications.  The 
+	read-only field values need to be initialized either at the declaration or in a constructor of the 
+	same class unlike constant keyword in c#. If we use readonly keyword with fields, then those field 
+	values will be evaluated at the runtime.
+</p>
+
+
+<p>
+	<h4></h4>
+	To define read-only fields in c#, we need to use readonly keyword during the declaration of fields in our 
+	application and we can use readonly modifier with the numbers, boolean values, strings or with null references.
+</p>
+
+
+<p>
+<h4></h4>	
+If we use readonly keyword to define the read-only field, then that field value cannot be changed once the 
+constructor execution has finished so we should not use readonly keyword with the fields whose value will be 
+changed at any time. It’s mandatory to initialize read-only field values either at the declaration or in a 
+constructor otherwise we will get compile-time errors in our c# application.
+</p>
+
+
+
+<p>
+	<h4>Properties</h4>
+	A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. 
+	Properties can be used as if they are public data members, but they are actually special methods called accessors. 
+	This enables data to be accessed easily and still helps promote the safety and flexibility of methods.
+
+	<ol>
+		<li>)
+			Properties enable a class to expose a public way of getting and setting values, 
+			while hiding implementation or verification code.
+		</li>
+		<li>)
+			A get property accessor is used to return the property value, and a set property accessor is used to assign 
+			a new value. These accessors can have different access levels. For more information, see Restricting 
+			Accessor Accessibility.
+		</li>
+		<li>)
+			The value keyword is used to define the value being assigned by the set accessor.
+		</li>
+		<li>)
+			Properties can be read-write (they have both a get and a set accessor), read-only (they have a get accessor 
+			but no set accessor), or write-only (they have a set accessor, but no get accessor). Write-only properties 
+			are rare and are most commonly used to restrict access to sensitive data.
+		</li>
+		<li>)
+			Simple properties that require no custom accessor code can be implemented either as expression body definitions 
+			or as auto-implemented properties.
+		</li>
+	</ol>
+</p>
+
+
+
+
+<p>
+	<h4>Methods</h4>
+	A method is a code block that contains a series of statements. A program causes the statements to be 
+	executed by calling the method and specifying any required method arguments. In C#, every executed instruction 
+	is performed in the context of a method. The Main method is the entry point for every C# application and it's 
+	called by the common language runtime (CLR) when the program is started.
+</p>
+
+</body>
+</html>

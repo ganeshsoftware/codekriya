@@ -1,0 +1,74 @@
+<li>
+     Get to know about the theoretical explanation on the built in unterfaces of the .NET 
+     Framework - IEnumerable&lt;T&gt;,IEnumerator&lt;T&gt;, ICollection&lt;T&gt;, 
+     IList&lt;T&gt;,IQueryable&lt;T&gt;,IDictionary&lt;TKey,TValue&gt;
+</li>
+
+
+Stack<T>
+Dictionary<TKey, TValue>
+
+
+Queue&lt;T&gt;
+
+
+
+
+NET Architecture:
+This refers to the set of all the programs, programming languages(pl's), components, processes and features that helps the programmer to build platform independent solutions which can be deployed across multiple devices and platforms - Web, Desktop, Mobile, Pad, Cloud etc.
+
+C#.NET
+The C#.NET is a programming language that is specifically designed for the .NET framework wherein the programmer can develop and deliver "assemblies" out of it.
+
+Common Language Runtime (CLR)
+It is a Virtual machine (a software running on top of an OS which inturn runs on top of a hardware) for compiling and executing programs written in different languages like C#, VB.NET etc. It follows a 2 -step compilation process.  
+
+MicroSoft Intermediate Language(MSIL)
+The MSIL is the o/p of the compilation process (using the c# compiler) and this is not a native code that runs dirctly on top of a hardware os. This MSIL is more like a nemonics like looking code and runs as an i/p to the JIT compiler. 
+
+Just In Time (JIT) Compiler
+The JIT compiler is responsible for converting the MSIL code to native code.
+ 
+
+Native Code
+The code that is o/p from the JIT compiler and is ready to be i/p on a binary os.
+
+
+Assemblies.
+The least unit of deployment for the .NET framework is an Assembly. It can be either a Dynamic Link Library (.dll), an Executable (.exe) or a netmodule (.netmodule). The assembly is in contrast to a traditional Win32 dll which will run only on windows and not on the .NET framework.
+
+
+.NET Framework Classes. (FCL)
+The predefined set of classes that are available in the .NET framework (distributed across namespaces) is called as the FCL. These FCL are instantiated appropriately and used across in the system.
+
+
+Object Oriented Programming with C#
+
+
+
+Collections and Generics (Data Structures)
+
+Collection based Built in Interfaces
+
+Strings & REs
+
+Errors and Exceptions
+
+Events, Delegates and Lambdas
+
+Manipulating Files
+
+Assemblies
+
+Memory Management & Pointers
+
+ADO.NET Entity Framework
+
+Asynchronous Programming
+
+Reflection
+
+Tasks, Threads and Synchronization
+
+DI & IOC (Patterns)
+

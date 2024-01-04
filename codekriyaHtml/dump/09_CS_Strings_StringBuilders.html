@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.NET Framework</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Strings and String Builders</h2>
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Strings</h3>
+			<ol>
+				<li><a href="#immutability">Immutability of strings</a></li>
+				<li><a href="#functions">Important String functions</a></li>
+				<li><a href="#stringdiff">string vs System.String</a></li>		
+				<li><a href="#stringescapes">String Escape Sequence List</a></li>
+			</ol>
+			<h3>String Builders</h3>
+		</div>	
+	</div>
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>Strings</h2>
+			A string is a built-in / predefined data type available in the .NET framework that is used to store a sequence of characters as a single string literal. This can be a combination of Alpha Numeric characters and special characters as all fall in the ambit of UNICODE characters.	
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>Important Points</h3>
+		<ol>
+			<li>
+				There is no null-terminating character at the end of a C# string; therefore a C# string can contain any number of embedded null characters ('\0'). 
+			</li>
+			<li>
+				The Length property of a string represents the number of Char objects it contains, not the number of Unicode characters. 
+			</li>
+			<li>
+				The new operator is used to create a string only when the programmer has to initialize the string with an array of chars. 
+			</li>
+			<li>
+				<span>string str1 = null</span>  &  <span>string str1 = “”</span>  are not the same. The first one is a null value and the second one is an empty string.  Use the IsNullOrEmpty(String) function to check whether the string is null or empty. The programmer can reduce the chances of  NullReferenceException occurring.
+			</li>				
+		</ol>
+		</div>	
+	</div>
+	
+		
+	
+	<div id="immutability"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>Strings are IMMUTABLE</h3>
+		<p>
+			Strings are immutable which means that they cannot be changed after they have been created.  Look into Fig.1 and the stages .
+		</p>
+		<center>
+			<img src="images/string_immutability.png" alt="string immutability"/>
+			<br/>
+			Fig. #1: String immutability
+		</center>
+		</div>	
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="functions"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h3>Important String functions.</h3>			
+			<p>
+				Classes and Structs both are User defined Data templates. That’s their commonality. Apart from that, the differences are listed in Table.1. 
+			</p>
+			<table class="table table-bordered ">
+				<tr>
+					<td><b>Sl.No</b></td>
+					<td><b>Function Signature</b></td>
+					<td><b>Comments</b></td>
+				</tr>
+				
+				<tr>
+					<td>1</td>
+					<td>
+					public bool Equals (string value)  
+					</td>
+					<td>
+					Determines whether the current String object and the specified String object have the same value.
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>2</td>
+					<td>
+					public static bool Equals (string a, string b)
+					</td>
+					<td>
+					Determines whether two specified String objects have the same value.
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>3</td>
+					<td>
+					public bool StartsWith (string value) 
+					</td>
+					<td>
+					Determines whether the beginning of this string instance matches the specified string.
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>				
+				<tr>
+					<td>11</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>				
+				<tr>
+					<td>12</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>				
+				<tr>
+					<td>13</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>				
+				<tr>
+					<td>14</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>				
+				<tr>
+					<td>15</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+					<td>
+					Download Source <img src="images/icon_download_1.png" style="width:50px; height:50px;"/>
+					</td>					
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>				
+				<tr>
+					<td>22</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>				
+				<tr>
+					<td>23</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>				
+				<tr>
+					<td>24</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>				
+				<tr>
+					<td>25</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>26</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>27</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>28</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>29</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>30</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>31</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>32</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>33</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>34</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>35</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>36</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>37</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+				<tr>
+					<td>38</td>
+					<td>
+
+					</td>
+					<td>
+
+					</td>
+				</tr>
+			</table>
+			<center>
+								Table.1.  
+			</center>	
+		</div>
+	</div>
+
+	
+
+	<div id="stringdiff"/>
+
+	<div id="stringescapes"/>	
+	
+	
+	
+</div>
+
+</body>
+</html>
+
+
+

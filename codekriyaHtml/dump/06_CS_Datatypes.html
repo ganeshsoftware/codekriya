@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.NET Framework</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Value types and Reference types:</h2>
+			<p>
+				<b>Value types:</b> Value types are data types that store data directly in their placeholders.  
+			</p>
+			<p>
+				<b>Reference types:</b> Reference types are data types that store the address of the variable in their placeholders. Fig.1 illustrates this in C-pointer syntax.
+			</p>
+		</div>	
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<img src="images/value_reference_types.png" alt="value reference types"/>
+		<br/>
+		<center>
+			Fig.1 Value & reference types.
+		</center>
+		<p>
+			In the case of .NET, value types are stored in the memory area called as the stack (the other one being heap).
+		</p>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Strongly typed vs weakly typed data types.</h2>
+			<p>
+			.NET Languages (and hence C#) is a strongly-typed language. It means we must declare the type of a variable which indicates the kind of values it is going to store such as integer, float, decimal, bool, etc.
+			</p>
+			<p>
+			Javascript is not strongly typed as for every variable (weather the literal is ‘ganesh’ or 108 or true) it is going to be stored in a var – not in int or string or bool.
+			</p>
+		</div>
+	</div>
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>.NET Data types.</h2>
+			<p>
+			Most of the basic data types (pre-defined) are value types. object and string which are basic data types are reference types and are created in the heap. Instances of classes, which are user defined data types, are reference types and are created in the managed heap. Instances of structs and enums which are user defined types are value types and are created in the stack. Fig.2 shows the types versus allocation place matrix.
+			</p>
+		</div>	
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		Fig.3 below shows a detailed table about the predefined data types and their allocations.
+		<center>
+			<img src="images/csharp_CTS.jpg" alt="CTS"/>
+			<br/>
+			Fig.3. Pre-defined types of the .NET Framework
+		</center>		
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,203 @@
+1.1	NET_Architecture		
+
+1.	NET_Framework_CSLanguage 
+2.	NET_BuildingBlocks
+3.	NET_BCL
+
+
+
+
+1.2	GettingStartedWithCS6
+
+1.	FundamentalCS
+2.	CTS
+3.	Variables_Constants_Identifiers
+4.	FlowControl
+5.	Enumerations 
+6.	Namespaces
+7.	Main_Method
+8.	Console_IO
+9.	CS_Comments
+10.	CS_PreprocessorDirectives
+11.	CS_OperatorsCasts
+12.	CLI_Commands 
+
+
+
+1.3	OOPS_CS
+1.	Classes_Structures
+2.	AnonymousTypes
+3.	Partial_Classes
+4.	Pillars_OOPS 
+5.	Encapsulation
+6.	StaticClass
+7.	Polymorphism 
+8.	Inheritance
+9.	AccessModifiers
+10.	Abstraction
+11.	Interfaces
+12.	SealedMethods
+13.	VirtualMethods
+14.	PassByValueReference
+15.	ObjectClass
+
+
+
+
+1.4	Collections_Generics
+1.	Generics
+2.	Arrays_1_2_3_D
+3.	Bit_Arrays
+4.	Jagged_Arrays
+5.	Sets
+6.	Array_Lists 
+7.	Linked_Lists
+8.	Sorted_Lists
+9.	Stack_T 
+10.	Queue_T 
+11.	HashTable 
+12.	Dictionary_TKey_TValue
+
+
+
+
+1.5	Collection_BuiltInInterfaces
+1.	IEnumerable_T
+2.	IEnumerator_T
+3.	ICollection_T
+4.	IList_T
+5.	IQueryable_T
+6.	IDictionary_TKey_TValue
+
+
+
+1.6	Strings_RE
+1.	String_Methods_Builders
+2.	String_Immutability 
+3.	Commonly_StringMethods
+4.	Regular_Expressions
+5.	Custom_RES
+
+
+
+1.7	Errors_Exceptions
+1.	Diff_Errors_Exception
+2.	Built_Exceptions
+3.	Exception_Hierarchy 
+4.	Try_catch_finally
+5.	Throw_keyword
+6.	Custom_Exception
+
+
+
+1.8	Events_Delegates_Lambdas
+1.	Events_EventHandlers
+2.	User_DefinedDelegates
+3.	Anonymous_Methods
+4.	Lambda_Expressions 
+5.	LINQ
+6.	Expression_Trees
+7.	Asynchronous_Callbacks
+
+
+
+1.9	Manipulating_Files
+1.	File_System
+2.	Managing_FileSystem
+3.	Moving_Copying_Deleting_Files
+4.	Reading_Writing_Files
+5.	MappedMemoryFiles
+6.	ReadingDrive_Information
+7.	Reading_Writing_Registry
+8.	Binary_Serialization_Deserialization
+9.	Xml_Serialization_Deserialization
+10.	Filestream_Streamwriter_Streamreader
+11.	Textwriter_Textreader
+12.	Stringwriter_Stringreader
+13.	Driveinfo_Directoryinfo_Fileinfofile 
+
+
+
+
+1.10	 Assemblies
+1.	Private_Public_Satellite
+2.	Types_Executable_Library_Netmodules_Assembly
+3.	Namespaces
+4.	Localization_Globalization
+5.	Strong_Naming
+6.	Assembly_Linking 
+7.	Global_Assembly_Cache
+8.	Attributes_CustomAttributes
+9.	NET_Reflection
+10.	Delayed_Signing
+
+
+
+
+1.11	Memory_Management_Pointers
+1.	ManagedHeap_StackMemory
+2.	Unmanaged_Resources
+3.	GarbageCollector_GarbageCollection
+4.	FreeingManaged_UnmanagedResources
+5.	Weak_Strong_References
+6.	Generations
+7.	Disposable_Interface
+8.	Dispose_Finalize
+9.	Pointers_NET
+
+
+
+
+1.12	ADONET_Entity_Framework
+1.	Programming_EntityFramework
+2.	Entities_Relationships_11_1N_MN
+3.	Crud_Operations
+4.	CodeFirst
+5.	DBContext
+6.	Relationships
+7.	QueryingData
+8.	WritingData_To_TheDatabase
+9.	Using_CodeFirstProgramming_Model
+10.	ORM_Basics
+
+
+
+
+1.13	Asynchronous_Programming
+1.	Why_AsynchronousProgramming_Is_Important
+2.	Asynchronous_Patterns
+3.	Foundation_of_AsynchronousProgramming
+4.	Error_Handling
+5.	Cancellation
+
+
+
+1.14	Reflection
+1.	Manipulating_Inspecting_Code_Runtime 
+2.	Custom_Attributes
+3.	Using_Reflection
+
+
+
+1.15	Tasks_Threads_Synchronization
+1.	Multithreading_AnOverview
+2.	Thread_Class
+3.	Thread_States
+4.	Thread_Pools
+5.	Issues_Multithreading
+6.	Thread_Synchronization 
+7.	Timers
+8.	Parallel_Class
+9.	Thread_Synchronization_Methods
+10.	Async_Await
+11.	Task_T
+
+
+
+
+1.16		
+1.	Introduction 
+2.	Dependency_Injection
+3.	Inversion_Control_Principle
+4.	Dependency_Inversion_Principle 
+5.	IoC_Container

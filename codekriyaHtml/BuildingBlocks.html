@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Building blocks</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div id="top"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Definitions:</h2>
+		</div>	
+	</div>
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<ol>
+				<li><a href="#classes">Class</a></li>
+				<li><a href="#structures">Structures</a></li>
+				<li><a href="#classvsstructures">Class vs Structures</a></li>
+				<li><a href="#enumerations">Enumerations</a></li>
+				<li><a href="#constants">Constants</a></li>
+				<li><a href="#variables">Variables</a></li>
+				<li><a href="#readonlys">Readonlys</a></li>
+				<li><a href="#methods">Methods</a></li>
+				<li><a href="#properties">Properties</a></li>
+				<li><a href="#events">Events</a></li>
+			</ol>
+		</div>	
+	</div>
+	
+
+	
+	
+	<div id="classes"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Class</h2>			
+			<p>
+			The class is the basic building block of any object oriented programming (oops) language. The class is a user defined blueprint for creating objects (instances of the class). This class, which happens to be a blue print, may contain within it constructors, destructors, finalizers, constants, fields, methods, properties, indexers, events etc.
+			</p>
+			<p>
+			In the runtime, while creating the instances of the classes (also known as objects), you can initialize the member variables, properties etc through constructors and write custom logic for destructors / finalizers.
+			</p>
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Implementation</h3>
+			<p>
+			Fig.1 below shows a real world entity named Customer and its equivalent code representation in C#. The private prefix in front of each of these identifiers indicate that these members will not be accessed beyond this class.
+			</p>
+			<center>
+				<img src="images/Entity_and_Code.png" alt="Entity_and_Code"/>
+				<br/>
+				Fig.1. Real World Entity and an equivalent code.
+			</center>
+		</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Characteristics of a class</h3>
+			<ol>
+				<li>
+				The instances of all the classes are created in the managed heap and a reference placed in the stack. So, instances of classes are reference types.
+				</li>
+
+				<li>
+				All the variables created in the class should be private and methods be public / protected / others so that it adheres to the principle of encapsulation.
+				</li>
+				
+				<li>
+				Classes are instantiated in the heap using the new keyword.
+				<br/>
+				<span>example:- Customer ganeshn = new Customer();</span>
+				</li>
+				
+				<li>
+				Instances of all the classes in the managed heap are memory managed by a component named Garbage Collector (GC).
+				</li>
+
+				<li>
+				In real world applications, a hierarchy of class templates are made using the Inheritance principle.
+				</li>
+			</ol>
+		</div>
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for CLASS OPERATIONS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>
+
+	
+
+
+
+
+
+
+	<div id="structures"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Struct</h2>			
+			<p>
+			Structures (structs) are again a user defined blueprint, just like a class for creating objects and providing initial values for state - the difference being they are value types and gets created in the stack part of the Memory. Structure is defined using struct keyword. Using struct keyword one can define the structure consisting of different data types in it. A structure can also contain constructors, constants, fields, methods, properties, indexers and events etc.
+			</p>
+		</div>	
+	</div>
+	
+	
+	
+	
+	
+	<div id="classvsstructures"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Class vs Structures</h2>			
+			<p>
+			Classes and Structs both are User defined Data templates. That’s their commonality. Apart from that, the differences are listed in Table.1. 
+			</p>
+			<table class="table table-bordered ">
+				<tr>
+					<td><b>Sl.No</b></td>
+					<td><b>Classes</b></td>
+					<td><b>Struct</b></td>
+				</tr>
+				
+				<tr>
+					<td>1</td>
+					<td>
+					Classes are of reference types and hence are allocated in the heap.
+					</td>
+					<td>
+					Structs are of value types and are allocated in the stack.
+					</td>
+				</tr>
+				
+				<tr>
+					<td>2</td>
+					<td>
+					Structures are used in places where just one,two (or typically less than 10) instances of the template has to be used.
+					</td>
+					<td>
+					Class templates are generally used in programs where the programmer has to make a lot of copies based on the template. 
+					</td>
+				</tr>
+				
+				<tr>
+					<td>3</td>
+					<td>
+					There is an indirection involved in classes so there is a negligible performance penalty involved.
+					</td>
+					<td>
+					As there is no indirection involved, structs are performance wise better.
+					</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>
+					Classes can contain Constructors – Default, Parameterized, Copy constructors etc.
+					</td>
+					<td>
+					Structs cannot have Default constructors but can have parameterized constructors which have to mandatorily initialize all the members of the structs. 
+					</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>
+					Class can have destructors within it.
+					</td>
+					<td>
+					Structures don’t have the concept of destructors.
+					</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>
+					A class can inherit from another class.
+					</td>
+					<td>
+					A Structure is not allowed to inherit from another structure or class.
+					</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>
+					The data member of a class can be protected.
+					</td>
+					<td>
+					The data member of structure can’t be protected.
+					</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>
+					Function member of the class can be virtual or abstract.
+					</td>
+					<td>
+					Function member of the structure cannot be virtual or abstract.
+					</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>
+					Two variable of class can contain the reference of the same object and any operation on one variable can affect another variable.
+					</td>
+					<td>
+					Each variable in struct contains its own copy of data (except in ref and out parameter variable) and any operation on one variable cannot effect another variable.
+					</td>
+				</tr>
+			</table>
+			<center>
+								Table.1. Classes vs Structs. 
+			</center>	
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div id="enumerations"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Enumerations</h2>			
+			<p>
+			Enumeration (enum) is used to declare a list of named integer constants and is a value data type. It can be defined using the enum keyword directly inside a namespace, class, or structure. The enum is used to give a name to each constant so that the constant integer can be referred using its name.
+			</p>
+		</div>
+	</div>
+	
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>example:</h3>
+			<p>
+				<pre>
+					enum WeekDays
+					{
+						Monday = 0,
+						Tuesday =1,
+						Wednesday = 2,
+						Thursday = 3,
+						Friday = 4,
+						Saturday =5,
+						Sunday = 6
+					}
+				</pre>
+			</p>
+			<center>
+				Code.1. Enumerations.
+			</center>
+		</div>
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for ENUMERATIONS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>		
+	
+
+
+
+
+
+
+	<div id="constants"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Constants</h2>			
+			<p>
+			Constants are immutable values which are known at compile time and do not change for the life of the program. Constants are declared with the const modifier. Only the C# built-in types (excluding System.Object) may be declared as const. 
+			</p>
+			<p>
+			Constants are used where you want a fixed parameter value to be used in multiple places. Change the value of the constant in the declaration part and the value changes in all the referred places.
+			</p>
+			<p>
+			<b>Important:</b> 
+			<br/>
+			User-defined types, including classes, structs, and arrays, cannot be const. They can be only read-only.
+			For more information, Visit
+			<a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants">MSDN Page - Constants (C# Programming Guide)</a>
+			</p>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for CONSTANTS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>
+
+
+
+
+
+
+	<div id="variables"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Variables</h2>			
+			<p>
+			A variable or scalar is a storage address (identified by a memory address) paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value. The variable name is the usual way to reference the stored value, in addition to referring to the variable itself, depending on the context. This separation of name and content allows the name to be used independently of the exact information it represents. The identifier in computer source code can be bound to a value during run time, and the value of the variable may thus change during the course of program execution.
+			</p>
+			<p>
+			For more information, Visit
+			<a href="https://en.wikipedia.org/wiki/Variable_(computer_science)">Wikipedia Page - Variables in Programming Languages</a>
+			</p>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for C# VARIABLES."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>
+
+
+
+
+
+
+	<div id="readonlys"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Read Onlys</h2>			
+			<p>
+			In c#, readonly is a keyword which is useful to define read-only fields in our applications. The read-only field values need to be initialized either at the declaration or in a constructor of the same class unlike constant keyword in c#. If we use readonly keyword with fields, then those field values will be evaluated at the runtime.
+			</p>
+			
+			<p>
+			To define read-only fields in c#, we need to use readonly keyword during the declaration of fields in our application and we can use readonly modifier with the numbers, boolean values, strings or with null references.
+			</p>
+			
+			<p>
+			If we use readonly keyword to define the read-only field, then that field value cannot be changed once the constructor execution has finished so we should not use readonly keyword with the fields whose value will be changed at any time. It’s mandatory to initialize read-only field values either at the declaration or in a constructor otherwise we will get compile-time errors in our c# application.
+			</p>
+			
+			<p>
+			For more information, Visit
+			<a href="https://www.tutlane.com/tutorial/csharp/csharp-readonly-property">TUTLANE.com Page on read-onlys.</a>
+			</p>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for C# READ ONLYs."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>
+
+
+
+
+
+
+	<div id="methods"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Methods</h2>			
+			<p>
+			A method is a code block that contains a series of statements. A program causes the statements to be executed by calling the method and specifying any required method arguments. In C#, every executed instruction is performed in the context of a method. The Main() is the entry point for every C# application and it's called by the common language runtime (CLR) when the program is started.	
+			</p>
+			
+		</div>	
+	</div>
+	
+
+
+
+
+
+	<div id="properties"/>	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Properties</h2>			
+			<p>
+			A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessor s. This enables data to be accessed easily and still helps promote the safety and flexibility of methods. 	
+			</p>
+			
+			<ol>
+				<li>
+				Properties enable a class to expose a public way of getting and setting values, while hiding implementation or verification code.
+				</li>
+				<li>
+				A get property accessor is used to return the property value, and a set property accessor is used to assign a new value. These accessor s can have different access levels.
+				</li>
+				<li>
+				The value keyword is used to define the value being assigned by the set accessor
+				</li>
+				<li>
+				Properties can be read-write (they have both a get and a set accessor), read-only (they have a get accessor but no set accessor), or write-only (they have a set accessor, but no get accessor). 
+				</li>
+				<b>Important:</b> Write-only properties are rare and are most commonly used to restrict access to sensitive data.
+				<li>
+				Simple properties that require no custom accessor code can be implemented either as expression body definitions or as auto-implemented properties.
+				</li>
+			</ol>
+		</div>	
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for C# PROPERTIES!"/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+
+
+
+
+
+	<div id="events"/>	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h2>Events</h2>			
+			<p>
+			An event is an action or occurrence recognized by the operating system through the process that has invoked that event. This event (like KeyUp, KeyDown, Keypress, MouseButtonClick, and MouseHover etc) are associated with objects and any such interesting event is notified to the operating system through the process.
+			</p>
+			<p>
+			Events can be generated / triggered by the system, by the user, or in other ways. Typically, events are handled synchronously with the program flow; that is, the process may have one or more dedicated places where events are handled (event handler), frequently an event loop. 
+			</p>
+			<p>
+			A source of events includes the user, who may interact with the process through the computer's peripherals - for example, by typing on the keyboard. Another source is a hardware device such as a timer. Software can also trigger its own set of events into the event loop, e.g. to communicate the completion of a task. Process that changes its behavior in response to events is said to be event-driven, often with the goal of being interactive.
+			</p>
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Event Handlers</h3>
+			<p>
+			An event handler is a method that will handle the event – i.e. if the event occurs, what actions should happen is written in the event handler. Fig.2 shows the event and the event handler.
+			</p>
+			<center>
+				<img src="images/event_handler.png" alt="event_handler"/>
+				<br/>
+				Fig.2 Events and Event handler
+			</center>
+		</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h3>Synchronous Events</h3>			
+			<p>
+			Events, whose event handlers are immediately called after the event occurs are known as Synchronous events. Example – DocumentNew event - It gets called as soon as the user creates a new document.
+			</p>
+			
+		</div>	
+	</div>	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<h3>Asynchronous Events</h3>			
+			<p>
+			Events, whose event handlers are called after a certain time lapse post the event occurrence are known as Asynchronous events. Example – A web service method getting called and the data submitted to the calling place.
+			</p>
+			
+		</div>	
+	</div>
+
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download Sample Files for EVENTS - SYNCHRONOUS & ASYNCHRONOUS."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+
+	
+</div>
+
+</body>
+</html>
+
+
+

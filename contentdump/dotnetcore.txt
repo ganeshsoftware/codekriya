@@ -1,0 +1,19 @@
+.NET Core is a free, open-source, cross-platform framework developed by Microsoft for building modern, scalable, and high-performance applications. It is a successor to the .NET Framework and provides a modular and lightweight platform that can be used to develop applications for various platforms, including Windows, macOS, and Linux.
+
+The key features of .NET Core include:
+
+1. Cross-platform compatibility: .NET Core allows developers to build applications that can run on different operating systems, including Windows, macOS, and Linux. It provides a unified development experience regardless of the target platform.
+
+2. High performance: .NET Core is designed to deliver excellent performance by utilizing just-in-time (JIT) compilation and optimizing runtime execution. It also includes the ability to leverage hardware-specific features for performance improvements.
+
+3. Modular architecture: .NET Core follows a modular approach where the framework is divided into individual components called NuGet packages. This allows developers to include only the required components, resulting in smaller application footprints and improved performance.
+
+4. Support for modern application types: .NET Core supports various types of applications, including web applications, microservices, command-line tools, and cloud-based applications. It provides libraries, frameworks, and tools for building applications in different domains.
+
+5. Open-source and community-driven: .NET Core is developed as an open-source project and is supported by a vibrant community of developers. The source code is available on GitHub, allowing developers to contribute, report issues, and suggest improvements.
+
+6. Language interoperability: .NET Core supports multiple programming languages, including C#, F#, and Visual Basic. Developers can choose their preferred language for building applications while leveraging the common runtime and libraries provided by .NET Core.
+
+7. Tooling and ecosystem: .NET Core provides a rich set of development tools, including the cross-platform integrated development environment (IDE) Visual Studio Code, Visual Studio, and command-line tools. It also has a vast ecosystem of libraries, frameworks, and extensions that enhance developer productivity.
+
+Overall, .NET Core offers a modern, flexible, and cross-platform framework for building a wide range of applications, empowering developers to create robust and efficient software solutions.

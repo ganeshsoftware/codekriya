@@ -1,0 +1,207 @@
+NET_Architecture
+	
+1. Dotnet_framework_cs_language()
+2. Dotnet_building blocks() => The CLR, JIT Compiler, CIL, MSIL, Native Code, Assemblies.
+3. Dotnet_framework_classes()
+
+
+
+GettingStartedWithCS6
+
+1.	FundamentalCS
+2.	CTS – Built In Data Types (value types and reference types)
+3.	VariablesConstantsIdentifiers, Reserved words, Keywords
+4.	FlowControl
+5.	Enumerations (enums) 
+6.	Namespaces
+7.	The MainMethod
+8.	ConsoleIO
+9.	UsingComments
+10.	CSPreprocessorDirectives
+11.	CSOperatorsCasts.
+12.	CLICommands – commands to create console apps, windows apps, web apps, webapi. 
+
+
+
+ObjectOrientedProgrammingWithCS
+
+1.	Classes and Structures.
+2.	Anonymous Types.
+3.	Partial classes.
+4.	Pillars of OOPS. 
+5.	Encapsulation
+6.	Static – static class, variables, methods, properties & static constructors
+7.	Polymorphism – method and operator overloading 
+8.	Inheritance – creating a chain of classes
+9.	Access modifiers - private, public, protected, internal, protected internal
+10.	Abstraction - abstract classes and abstract methods
+11.	Interfaces with examples.
+12.	Sealed methods and sealed classes with examples
+13.	Virtual methods with examples
+14.	Pass by value and pass by reference (‘ref’ keyword)
+15.	Object class - ToString(), GetHashCode(), GetType() and Equals().
+
+
+
+CollectionsAndGenerics
+
+1.	Generics
+2.	Arrays, 1 D , 2D and  3D Arrays
+3.	Bit Arrays
+4.	Jagged Arrays
+5.	Sets
+6.	Array Lists 
+7.	Linked Lists
+8.	Sorted Lists
+9.	Stack<T> 
+10.	Queue<T> 
+11.	Hash Table 
+12.	Dictionary<TKey, TValue>
+
+
+
+CollectionBasedBuiltInInterfaces
+
+1.	IEnumerable<T>
+2.	IEnumerator<T>
+3.	ICollection<T>
+4.	IList<T>
+5.	IQueryable<T>
+6.	IDictionary<TKey,TValue>
+
+
+
+StringsREs
+
+1.	String, string methods and String Builders
+2.	String Immutability 
+3.	Commonly used String methods
+4.	Regular Expressions
+5.	Custom Regular expressions with an example.
+
+
+ErrorsAndExceptions
+
+1.	Diff between errors and exception
+2.	Built in exceptions
+3.	Exception hierarchy 
+4.	try…. catch …. finally
+5.	‘throw’ keyword with an example
+6.	Custom exception
+
+
+EventsDelegatesLambdas
+
+1.	EventsAndEventHandlers in .net
+2.	UserDefinedDelegates, single and multicast delegates with examples
+3.	AnonymousMethods
+4.	LambdaExpressions 
+5.	Linq
+6.	ExpressionTrees
+7.	AsynchronousCallbacks
+
+
+ManipulatingFiles
+
+
+1.	File system.
+2.	Managing the File System
+3.	Moving, Copying, and Deleting Files
+4.	Reading and Writing to Files
+5.	Mapped Memory Files
+6.	Reading Drive Information
+7.	Reading and Writing to the Registry
+8.	binary serialization and deserialization
+9.	xml serialization and deserialization
+10.	filestream, streamwriter & streamreader
+11.	textwriter & textreader
+12.	stringwriter and stringreader
+13.	driveinfo, directoryinfo & fileinfofile 
+
+
+
+Assemblies
+
+1.	Private, Public and Satellite Assemblies
+2.	Types - Executable, Library, net modules, assembly manifest
+3.	Namespaces
+4.	Localization and Globalization
+5.	Strong naming (sn utility).
+6.	Assembly linking - al utility 
+7.	Global Assembly Cache (GAC Util)
+8.	Attributes – Built in and Custom Attributes
+9.	.NET Reflection.
+10.	Delayed signing
+
+
+
+
+MemoryManagementPointers
+
+1.	Theory - managed heap and stack memory, memory instantiation - class and struct
+2.	Unmanaged Resources
+3.	Garbage Collector (GC) and Garbage collection
+4.	Freeing managed and unmanaged resources.
+5.	Weak and strong references
+6.	Generations
+7.	IDisposable interface
+8.	Dispose() and Finalize()
+9.	Pointers in .NET
+
+
+
+AdoNetEntityFramework
+
+1.	Programming with the Entity Framework Entity Framework Mapping
+2.	Entities and EF relationships – 1..1, 1..N, M..N modeling with example
+3.	Crud operations in 1..1, 1..N, M..N example
+4.	Code first  - crud operations in 1..1, 1..N, M..N example
+5.	DB Context
+6.	Relationships
+7.	Querying Data
+8.	Writing Data to the Database
+9.	Using the Code First Programming Model
+10.	object relational mapping (orm) basics
+
+
+
+AsynchronousProgramming
+
+1.	Why Asynchronous Programming Is Important
+2.	Asynchronous Patterns
+3.	Foundation of Asynchronous Programming
+4.	Error Handling
+5.	Cancellation
+
+
+
+
+Reflection
+
+1.	Manipulating and Inspecting Code at Runtime 
+2.	Custom Attributes
+3.	Using Reflection
+
+
+TasksThreadsSynchronization
+
+1.	Multithreading – An Overview
+2.	The Thread Class
+3.	Thread States
+4.	Thread Pools
+5.	Issues in Multithreading (dirty read, deadlocks)
+6.	Thread Synchronization (Monitors, Mutex, Semaphores) 
+7.	Timers
+8.	Parallel Class
+9.	Thread synchronization and methods.
+10.	async …await
+11.	Task<T>
+
+
+DiIocPatterns
+
+1.	Introduction 
+2.	Dependency Injection (DI)
+3.	Inversion of Control Principle (IoC)
+4.	Dependency Inversion Principle (DIP) 
+5.	IoC Container.

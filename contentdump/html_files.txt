@@ -1,0 +1,201 @@
+1.1	netarchitecture.html   NET Architecture		
+
+1.	netframeworkcslang.html        The .NET framework and C# language. 
+2.	netbuildingblocks.html            Building Blocks => The CLR, JIT Compiler, CIL, MSIL, Native Code, Assemblies.
+3.	netframeworkclasses.html       .NET Framework Classes (FCL / BCL).
+
+
+
+1.2	gettingstartedwithcs.html             Getting started with C# 6.0
+1.	fundamentalcs.html                      Fundamental C#
+2.	cts.html                                       CTS – Built In Data Types (value types and reference types)
+3.	cs_var_cons_iden_resv.html        Variables, Constants, Identifiers, Reserved words, Keywords
+4.	csflowcontrol.html                       Flow Control                               
+5.	csenums.html                              Enumerations (enums) 
+6.	namespaces.html                         Namespaces
+7.	csmainmethods.html                   The Main() Method
+8.	csconsole.html                            Console I/O
+9.	csusingcomments.html                Using Comments
+10.	cspreprocessor.html                    The C# Preprocessor Directives
+11.	csoperators.html                         C# operators and casts.
+12.	csclicommands.html                    CLI commands – commands to create console apps, windows apps, web apps, webapi. 
+
+
+
+1.3	oops.html                                   Object Oriented Programming with C#
+1.	classesstructs.html                       Classes and Structures.
+2.	anonymoustypes.html                 Anonymous Types.
+3.	partialclasses.html                        Partial classes.
+4.	oopspillars.html                           Pillars of OOPS. 
+5.	encapsulation.html                      Encapsulation
+6.	staticconcepts.html                     Static – static class, variables, methods, properties & static constructors
+7.	polymorphism.html                     Polymorphism – method and operator overloading 
+8.	inheritance.html                          Inheritance – creating a chain of classes
+9.	accessmodifiers.html                   Access modifiers - private, public, protected, internal, protected internal
+10.	abstraction.html                         Abstraction - abstract classes and abstract methods
+11.	interfaces.html                            Interfaces with examples.
+12.	sealed.html                                 Sealed methods and sealed classes with examples
+13.	virtualmethods.html                    Virtual methods with examples
+14.	passbyvalref.html                        Pass by value and pass by reference (‘ref’ keyword)
+15.	objectclass.html                          Object class - ToString(), GetHashCode(), GetType() and Equals().
+
+
+
+1.4	collectionsgenerics.html              Collections and Generics (Data Structures)
+1.	generics.html                             Generics
+2.	arrays.html                                Arrays, 1 D , 2D and  3D Arrays
+3.	bitarrays.html                            Bit Arrays
+4.	jaggedarrays.html                       Jagged Arrays
+5.	sets.html                                   Sets
+6.	arrayslist.html                            Array Lists 
+7.	linkedlist.html                            Linked Lists
+8.	sortedlists.html                          Sorted Lists
+9.	stack_t.html                              Stack<T> 
+10.	queue_t.html                             Queue<T> 
+11.	hashtable.html                           Hash Table 
+12.	dictionary_t.html                       Dictionary<TKey, TValue>
+
+
+
+1.5	collection_builtin.html                Collection based Built in Interfaces
+1.	ienumerable_t.html                    IEnumerable<T>
+2.	ienumerator_t.html                    IEnumerator<T>
+3.	icollection_t.html                       ICollection<T>
+4.	ilist_t.html                                 IList<T>
+5.	iqueryable_t.html                       IQueryable<T>
+6.	idictionary_t.html                      IDictionary<TKey,TValue>
+
+
+
+
+1.6	stringsRE.html                         Strings & REs
+1.	strings.html                              String, string methods and String Builders
+2.	stringimmutability.html             String Immutability 
+3.	stringmethods.html                  Commonly used String methods
+4.	regexps.html                            Regular Expressions
+5.	customRE.html                       Custom Regular expressions with an example.
+
+
+1.7	errors_expections.html            Errors and Exceptions
+1.	errors_expections.html            Diff between errors and exception
+2.	builtinexpec.html                     Built in exceptions
+3.	expection_hierarchy.html        Exception hierarchy 
+4.	trycatchfinally.html                  try…. catch …. finally
+5.	throw_keyword.html              ‘throw’ keyword with an example
+6.	custom_expection.html           Custom exception
+
+
+
+
+1.8	events_delegates.html              Events, Delegates and Lambdas
+1.	events_handlers.html               events and event handlers in .net
+2.	userdefined_delegates.html      user defined delegates, single and multicast delegates with examples
+3.	anonymous_methods.html      Anonymous methods
+4.	lambda_exp.html                    Lambda expressions 
+5.	linq.html                                 Linq
+6.	expressiontrees.html               Expression Trees
+7.	async_callbacks.html              Asynchronous callbacks
+
+
+
+1.9	manipulating_files.html           Manipulating Files
+1.	filesystem.html                       File system.
+2.	managing_files.html               Managing the File System
+3.	files_movecopy.html              Moving, Copying, and Deleting Files
+4.	files_readwrite.html                Reading and Writing to Files
+5.	mappedmems.html                Mapped Memory Files
+6.	files_drive.html                      Reading Drive Information
+7.	registry.html                          Reading and Writing to the Registry
+8.	serz_binary.html                    binary serialization and deserialization
+9.	serz_xml.html                        xml serialization and deserialization
+10.	filestream.html                       filestream, streamwriter & streamreader
+11.	textreadwrite.html                 textwriter & textreader
+12.	stringwriter.html                    stringwriter and stringreader
+13.	drive_directory.html              driveinfo, directoryinfo & fileinfofile 
+
+
+
+1.10	assemblies.html                      Assemblies
+1.	assemblies_priv_pub.html      Private, Public and Satellite Assemblies
+2.	types.html                             Types - Executable, Library, net modules, assembly manifest
+3.	namnespaces.html                 Namespaces
+4.	locGlob.html                         Localization and Globalization
+5.	strongname.html                   Strong naming (sn utility).
+6.	assemlink.html                      Assembly linking - al utility 
+7.	gac.html                               Global Assembly Cache (GAC Util)
+8.	customattrib.html                 Attributes – Built in and Custom Attributes
+9.	netreflection.html                 .NET Reflection.
+10.	delayedsigning.html              Delayed signing
+
+
+
+1.11	mem_mgnt.html                  Memory Management & Pointers
+1.	managed_heap.html             Theory - managed heap and stack memory, memory instantiation - class and struct
+2.	unmgmd_res.html                Unmanaged Resources
+3.	garb_collec.html                   Garbage Collector (GC) and Garbage collection
+4.	free_unmgmd.html              Freeing managed and unmanaged resources.
+5.	weak_strong.html                Weak and strong references
+6.	generations.html                  Generations
+7.	idisposable.html                   IDisposable interface
+8.	dispose_finalize.html            Dispose() and Finalize()
+9.	pointers.html                       Pointers in .NET
+
+
+
+
+1.12	adonet.html                        ADO.NET Entity Framework
+1.	prog_entfrm.html               Programming with the Entity Framework Entity Framework Mapping
+2.	ef_relationships.html           Entities and EF relationships – 1..1, 1..N, M..N modeling with example
+3.	curd_ops.html                    Crud operations in 1..1, 1..N, M..N example
+4.	codefirst.html                     Code first  - crud operations in 1..1, 1..N, M..N example
+5.	dbcontext.html                   DB Context
+6.	relationships.html                Relationships
+7.	queryingdata.html               Querying Data
+8.	writingdata_db.html           Writing Data to the Database
+9.	codefirst.html                     Using the Code First Programming Model
+10.	orm.html                            Object relational mapping (orm) basics
+
+
+
+
+1.13	asynchronous.html             Asynchronous Programming
+1.	aysnc_import.html             Why Asynchronous Programming Is Important
+2.	async_patterns.html           Asynchronous Patterns
+3.	async_found.html              Foundation of Asynchronous Programming
+4.	error_handling.html           Error Handling
+5.	cancellation.html                Cancellation
+
+
+
+1.14	reflection.html                  Reflection
+1.	mnpl_runtime.html           Manipulating and Inspecting Code at Runtime 
+2.	custom_attrib.html           Custom Attributes
+3.	using_ref.html                  Using Reflection
+
+
+
+1.15	tasks_threads.html           Tasks, Threads and Synchronization
+1.	multithreading.html          Multithreading – An Overview
+2.	threadclass.html               The Thread Class
+3.	threadstates.html             Thread States
+4.	threadpools.html             Thread Pools
+5.	multi_issues.html             Issues in Multithreading (dirty read, deadlocks)
+6.	threadsync.html               Thread Synchronization (Monitors, Mutex, Semaphores) 
+7.	timers.html                      Timers
+8.	parallelclass.html               Parallel Class
+9.	async_await.html             async …await
+10.	task_t.html                      Task<T>
+
+
+
+
+1.16	di_ioc.html                      DI & IOC (Patterns)
+1.	doc_ioc_intro.html          Introduction 
+2.	di.html                            Dependency Injection (DI)
+3.	ioc.html                          Inversion of Control Principle (IoC)
+4.	dip.html                          Dependency Inversion Principle (DIP) 
+5.	ioc_container.html          IoC Container.
+
+
+
+

@@ -1,0 +1,154 @@
+body
+{
+	font-family:"Palatino Linotype";
+}
+
+ol,li
+{
+	font-family:"Palatino Linotype";
+	margin-top: 1.0em;
+
+	
+}
+
+div ol,li
+{
+	font-family:"Palatino Linotype";
+	
+
+	
+}
+
+span
+{
+	font-family:"Palatino Linotype";
+	color:#1F75FE;
+}
+
+
+
+
+figure > p
+{
+	text-align:center;
+}
+
+body > p , h2
+{
+    font-family:"Yu Gothic UI";
+	font-size:30px;	
+	color: #E33F3E;
+}
+
+body > p , h4
+{
+    font-family:"Yu Gothic UI";
+	font-size:25px;	
+	color: #C33436;
+}
+
+body > p , h5
+{
+    font-family:"Yu Gothic UI";
+	font-size:20px;	
+	color: #C33436;
+}
+
+
+
+
+
+
+
+h1
+{
+	color:blue;
+}
+
+#head
+{
+	width:100%;
+	height:120px;
+	background-color:#fff;
+	font-family:Old English Text MT; 
+}
+
+#head h1
+{
+	font-size:45px;
+
+
+	color:#c33436; 
+}
+
+#midbody
+{
+	width:100%;
+	height:500px;
+	background-color:#fff;
+}
+
+
+#midbodyleft
+{
+	width:60%;
+	height:100%;
+}
+
+#midbodyright
+{
+	width:40%;
+	height:100%;
+	background-color:white;
+}
+
+
+#midbodyleft > .midbodyrow
+{
+	width:100%;
+	height:25%;
+	background-color:#fff;
+}
+
+#midbodyleft > .midbodyrow > .midbodyelement
+{
+	width:21%;
+	height:100%;
+	padding-left:2%;
+	padding-right:2%;
+	float:left;
+	font-size:15px;
+}
+
+#midbodyleft > .midbodyrow > .midbodyelement > img
+{
+	width:50%;
+	height:40%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:none;
+}
+
+#midbodyleft > .midbodyrow > .midbodyelement > p
+{
+	width:100%;
+	height:100%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+
+#footer
+{
+	width:100%;
+	height:20px;
+	background-color:#fff;
+	color:#c33436;
+}
+#footer > div
+{
+	font-family:Old English Text MT; 
+	padding-top:2px;
+	text-align:center;
+	font-size:25px;
+}

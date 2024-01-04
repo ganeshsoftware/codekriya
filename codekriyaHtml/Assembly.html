@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Assembly</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Definition:</h2>
+		</div>	
+	</div>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			A windows executable (win32 exe) or a windows dynamic link library (win32 dll) runs on top of the windows operating system. We have similar exes / dll / library files for the other operating systems ... linux, macos to name a few.
+			<br/>
+			The assembly is the unit of deployment in a .net framework. This means that any output from a compiler like c# / vb.net / f# will produce an assembly and this assembly in turn will run on top of the virtual operating system- .net framework. This also means that anything and everything in .net breakdowns into an assembly.
+			<br/>
+			<br/>
+			An Assembly in its physical form is a file in the OS File System. But unlike the binary OS file, which is meant to be executed on top of an OS directly, the assembly will execute on top of the .NET CLR.
+			<br/>
+			<br/>
+			This means that any OS that has a .NET CLR on top of it will be able to JIT compile the assembly (which is an MSIL) and execute it on top of the OS and give the desired results.
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		
+		<div class="col-sm-12 normaltext">	
+				<h2>Assembly Structure</h2>
+				In general, a static assembly can consist of four elements:
+				<ol class="square">
+					 <li>The <span>assembly manifest</span>, which contains assembly metadata.</li>
+					 <li><span>Type metadata.</span></li>
+					 <li>Microsoft intermediate language (MSIL) code that implements the types.</li>
+					 <li>A set of resources.</li>
+				</ol>
+				Only the assembly manifest is required, but either types or resources are needed to give the assembly any meaningful functionality. 
+		</div>	
+	</div>
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<center>
+				<img src="images/assemblystructure.png" alt="assemblystructure"/>
+				<br/>
+				Fig.1. An assembly structure.
+			</center>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id = "platformindependence" class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Libraries and Executables</h2>
+			A c# source code (.cs) can be compiled into any one of the two forms – Library and Executable. Fig.2 below shows the possible forms of an assembly.
+			<center>
+				<img src="images/Compiling_Options.png" alt="Compiling_Options"/>
+				<br/>
+				Fig.2. Libraries and Executables. 
+			</center>
+		</div>
+	</div>
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Libraries</h3>
+			If the requirement is of a re-usable .NET component which has a common / generic logic that can be used across multiple scenarios - compiling the c# source code (.cs) into a .NET Library is the perfect choice. Libraries are dependent on an EXE for execution and cannot be executed independently. The files produced are DLL files – Dynamic Linking Library (*.dll).
+		</div>	
+	</div>
+
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Executables</h3>
+			If the requirement is for an independent component which encapsulates a particular logic - compiling the c# source code (.cs) into a .NET EXE is the perfect choice. Unlike Libraries, Executables are independent and can also include a reference library optionally. The files produced are EXE files – Executables (*.exe).
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<b>IMPORTANT</b>: Library (DLL) and Executables (EXE) are both Assemblies because they are meant to be run on the .NET CLR. Net modules are an outdated compilation option which was not an assembly and is being no more actively used in new projects.    
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>C# source files compiling options</h2>
+			<div class="table">
+				<tr>
+					<td>Sl:</td>
+					<td>Type:</td>
+					<td>Command:</td>
+					<td>Comments:</td>
+					<td>Resulting File</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>.NET EXECUTABLE(EXE)</td>
+					<td></td>
+					<td>Comments:</td>
+					<td>Resulting File</td>
+				</tr>					
+				<tr>
+					<td>2</td>
+					<td>.NET LIBRARY(DLL)</td>
+					<td>Command:</td>
+					<td>Comments:</td>
+					<td>Resulting File</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>NET MODULE(netmodule)</td>
+					<td>Command:</td>
+					<td>Comments:</td>
+					<td>Resulting File</td>
+				</tr>					
+					
+					
+					
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>CIL (Common Intermediate Language)</h3>
+			<span>Common Intermediate Language (CIL)</span>, formerly called Microsoft Intermediate Language (MSIL) or Intermediate Language (IL), is the <span>intermediate language binary instruction set</span> defined within the <span>Common Language Infrastructure (CLI)</span> specification. CIL instructions are executed by a CLI-compatible runtime environment such as the CLR. Languages which target the CLI compile to CIL. CIL is <span>object-oriented, stack-based bytecode</span>. Runtimes typically just-in-time compile <span>CIL instructions</span> into <span>native code</span>.
+			<br/>
+			(<b>Source</b>: Wikipedia)
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Features of the .NET Framework.</h2>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Platform Independence and Reusability</h3>
+			A code component written for .NET framework and compiled as an <span>Assembly</span> can be executed in any OS (Windows, Linux, Mac-OS etc). The programmer need not re-write the whole logic again in a different language just because the OS is different. This way the component so developed is a re-usable component.
+		</div>
+	</div>
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Language interoperability</h3>
+			Code written in one .NET language and compiled into a package / library can be used in source code written in another .NET language. This is language interoperability and this is possible because of <span>Common Type System (CTS)</span>.
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Memory Management using GC</h3>
+			An actively running .NET application (running as a process in the underlying OS), allocates memory for newly created objects in the <span>managed heap area</span>. However, unlike other languages (say C++), the memory de-allocation is done using what is known as the <span>Garbage Collection process</span>, by the <span>Garbage Collector (GC)</span>. The GC runs in the background of the .NET process as a <span>'thread'</span>.
+		</div>
+	</div>
+
+
+
+
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Framework Class Library (FCL) Support</h3>
+			FCL is a set of classes that provides the <span>User interface, Data access, Database connectivity, Cryptography, Web application development, Numeric algorithms, and Network communications</span>. Programmers produce software by combining their source code with .NET Framework and other libraries. Fig.3 shows a part of a huge FCL with their classes depicted.
+		</div>
+	</div>
+
+
+
+
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<center>
+				<img src="images/bcl_02_small.jpg" alt="Class Library"/>
+				<br/>
+				Fig.3. Part of the Framework Class Library (FCL).
+			</center>
+		</div>
+	</div>
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Common Type System (CTS)</h3>
+			The <span>Common Type System</span> defines how types are declared, used, and managed in the common language runtime, and is also an important part of the runtime's support for cross-language integration. The common type system performs the following functions:
+		</div>
+	</div>
+	
+
+
+
+
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<ol>
+				<li>
+				Establishes a framework that helps enable cross-language integration, type safety, and high-performance code execution.
+				</li>
+				<li>
+				Provides an object-oriented model that supports the complete implementation of many programming languages.
+				</li>
+				<li>
+				Defines rules that languages must follow, which helps ensure that objects written in different languages can interact with each other.
+				</li>
+				<li>
+				Provides a library that contains the primitive data types (such as Boolean, Byte, Char, Int32, and UInt64) used in application development.
+				</li>
+			</ol>
+		</div>	
+	</div>
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Managed Code</h3>
+			Computer code written to target (run on top of) the .NET Framework is called "Managed code". Any code that doesn’t run top of the CLR will not be able to leverage the advantages offered by the CLR and hence will be called as <span>Un-Managed code</span>. They have to be dealt separately outside the ambit of the CLR by methods like <span>COM Callable Wrapper (CCW)</span> and <span>COM-Interop</span>.
+		</div>
+	</div>
+
+
+
+
+
+	
+</div>
+
+</body>
+</html>
+
+
+

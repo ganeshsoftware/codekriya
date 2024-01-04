@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.NET Framework</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Garbage Collection in .NET framework:</h2>
+		</div>	
+	</div>
+
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<ol>
+			<li><a href="#definition">Garbage Collection - Definition</a></li>
+			<li><a href="#commonterms">Commonly used terms used in GC</a></li>
+			<li><a href="#gettinginvoked">When GC gets invoked?</a></li>
+			<li><a href="#phases">Phases in GC.</a></li>
+			<li><a href="#generations">Generations and Weak References.</a></li>
+			<li><a href="#programminggc">Programming with GC.</a></li>
+			<li><a href="#finalization">Finalization - The process of releasing Unmanaged Objects (theory).</a></li>
+			<li><a href="#qa">Q&A in Garbage Collector.</a></li>
+		</ol>
+		</div>	
+	</div>
+	
+	
+
+
+
+	<!--  1. Garbage Collection - Definition  -->
+	<div id="definition"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>1) Garbage Collection - Definition</h2>		
+			<p>
+			An actively running .NET application (running as a process in the underlying OS), allocates memory for newly created objects in the managed heap area. However, unlike other languages (say C++), the memory de-allocation is done using what is known as the Garbage Collection thread or simply the Garbage Collector (GC) of the .NET Process.
+			</p>
+			<p>
+			The GC runs in the background of the .NET process as a thread. Like any other thread, the GC is non-deterministic. This means that the programmer doesn't know as to when the GC will run, and as a result, will de-allocate unwanted memory blocks. The unwanted memory here is the outdated objects used by the application i.e. objects which cannot be reached through a tree traversal process.
+			</p>
+			<p>
+			In a nutshell, the memory management activities are taken care by the GC and are invoked whenever the system feels it necessary.
+			</p>
+		</div>	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--  2. Commonly used terms used in GC   -->
+	<div id="commonterms"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>2) Commonly used terms used in GC.</h2>
+		</div>	
+	</div>
+	
+	
+	<div id="managedheap"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>2.1) Managed Heap</h3>
+		The area of memory where instances of reference types (Inbuilt and user defined) are created and allocated by the CLR is known as the Managed Heap.
+		</div>	
+	</div>
+
+	<div id="unmanagedheap"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>2.2) Unmanaged Resources</h3>
+		Resources which are not identified / recognized  by the CLR, yet is part of a method - like memory buffers, binary network connections, database resources, Pointer handles, BLOBs, File Handles etc. which are directly identified by the underlying operating system.
+		</div>	
+	</div>	
+	
+	<div id="metadata"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>2.3) Meta Data</h3>
+		Every data type used in .NET software includes metadata that describes it. With the help of metadata, the CLR knows the layout of each of the objects in memory, which helps the Garbage Collector in the compaction phase of Garbage collection. Without this knowledge, the Garbage Collector wouldn't know where one object instance ends and the next begins.
+		</div>	
+	</div>			
+
+
+	<div id="optimizingengine"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>2.4) Optimizing Engine</h3>
+		The garbage collector's optimizing engine determines the best time to perform a collection, (the exact criteria is guarded by Microsoft) based upon the allocations being made.
+		</div>	
+	</div>	
+
+	
+	
+	<div id="applicationroots"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>2.5) Application Roots / Root Objects</h3>
+		Every application has a set of roots. Roots identify memory locations, which refer to objects on the managed heap or to objects that are set to null. The following are the application roots – 
+		<ol>
+			<li>
+				All the global and static object pointers in an application
+			</li>
+			<li>
+				Any local variable/parameter object pointers on a thread's stack.
+			</li>
+			<li>
+				Any CPU registers containing pointers to objects in the managed heap.
+			</li>
+			<li>
+				Pointers to the objects from Freachable queue.
+			</li>
+			<li>
+				The list of active roots is maintained by the just-in-time (JIT) compiler and common language runtime, and is made accessible to the garbage collector's algorithm.
+			</li>
+		</ol>
+		</div>	
+	</div>
+		<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+
+
+	<!-- 3. When GC gets invoked? -->
+	<div id="gettinginvoked"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>3) When GC gets invoked?</h2>			
+		The GC is non-deterministic and the programmer has no control on calling it - except when the programmer forces the GC.Collect(). The GC gets invoked on any of the two below given conditions.
+		<ol>
+			<li>
+				If the system has run out of memory due to previous allocations and has low physical memory (exceeds a pre-set threshold value).
+			</li>
+			<li>
+				If the GC.Collect() is called.
+			</li>
+		</ol>
+		</div>		
+	</div>
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+
+
+
+
+
+
+
+	<!--  4. Phases in GC.  -->
+	<div id="phases"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>4) Phases in GC.</h2>	
+		The GC reclaims the memory in a 2-steps process which are as given below.
+		</div>		
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>4.1) Marking Phase.</h3>	
+			<p>
+			When the garbage collector starts running, it makes the assumption that all objects in the heap are garbage. In other words, it assumes that none of the application's roots refer to any objects in the heap. Post that, it follows the steps.
+			</p>
+			<p>
+			<b>Step-1:</b> The GC identifies live object references or application roots.
+			<br/>
+			<b>Step-2:</b> It starts walking the roots and building a graph of all objects reachable from the roots.
+			<br/>
+			<b>Step-3:</b> If the GC attempts to add an object already present in the graph, then it stops walking down that path. This serves two purposes. First, it helps performance significantly since it doesn't walk through a set of objects more than once. Second, it prevents infinite loops should you have any circular linked lists of objects. Thus cycles are handles properly.
+			</p>
+			<p>
+			Once all the roots have been checked, the garbage collector's graph contains the set of all objects that are somehow reachable from the application's roots; any objects that are not in the graph are not accessible by the by the application, and are therefore considered garbage.
+			</p>
+		</div>		
+	</div>
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>4.2) Relocating and Compacting Phase.</h3>	
+		<p>
+		Post Marking Phase, move all the live objects to the bottom of the heap, leaving free space at the top.
+		</p>
+		<p>		
+		<b>Step-1:</b> The garbage collector now walks through the heap linearly, looking for contiguous blocks garbage objects now considered free space.
+		<br/>
+		<b>Step-2:</b> The garbage collector then shifts the non-garbage objects down in memory, removing all of the gaps in the heap.
+		<br/>
+		<b>Step-3:</b> Moving the objects in memory invalidates all pointers to the objects. So the garbage collector modifies the application's roots so that the pointers point to the objects' new locations.
+		<br/>
+		<b>Step-4:</b> In addition, if any object contains a pointer to another object, the garbage collector is responsible for correcting these pointers as well. After all the garbage has been identified, all the non-garbage has been compacted, and all the non-garbage pointers have been fixed-up, a pointer is positioned just after the last non-garbage object to indicate the position where the next object can be added.
+		</p>
+		</div>		
+	</div>	
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+	
+	<!-- Generations and Weak References. -->
+	<div id="generations"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>5) Generations and Weak References.</h2>
+		<p>
+		Weak references are a means of performance enhancement, used to reduce the pressure placed on the managed heap by large objects. When a root points to an object it's called a strong reference to the object and the object cannot be collected because the application's code can reach the object. When an object has a weak reference to it, the object can be collected and when the application later attempts to access the object, the access will fail. 
+		</p>
+		<p>
+		On the other hand, to access a weakly referenced object, the application must obtain a strong reference to the object. If the application obtains this strong reference before the garbage collector collects the object, then the GC cannot collect the object because a strong reference to the object exists.
+		</p>
+		</div>		
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>5.1) Weak Reference Tables</h3>
+		The managed heap contains two internal data structures whose sole purpose is to manage weak references (WR) - Short WR and Long WR
+			</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>5.1.1) The Short Weak Reference (SWR) table.</h4>
+		The SWR doesn't track resurrection which means that object which has SWR to itself is collected immediately without running its Finalize().  
+		</div>
+	</div>	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>5.1.2) The Long Weak Reference (LWR) table.</h4>
+		<p>
+		LWR tracks resurrection.  The GC collects object pointed to by the LWR table only after determining that the object's storage is reclaimable. If the object has a Finalize(), the Finalize() has been called and the object was not resurrected.
+		</p>
+		<p>
+		These two tables simply contain pointers to objects allocated within the managed heap. Initially, both tables are empty. When you create a WeakReference object, an object is not allocated from the managed heap. Instead, an empty slot in one of the weak reference tables is located; SWRs use the SWR table and LWRs use the LWR table.
+		</p>
+		</div>
+	</div>	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>5.1.3) An Example</h4>
+		<p>
+		Consider an example! Figure 1 shows the state of all the internal data structures before the GC runs and Figure.2 shows the internal data structures after the GC runs. 
+		</p>
+		<center>
+			<img src="images/gc_beforerunning.png" alt="before running"/>
+			<br/>
+			Fig.1 Scenario before the GC Run
+		</center>		
+		</div>
+	</div>
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<b>STEPS</b>
+		<p>
+			<b>Step-1:</b> The garbage collector builds a graph of all the reachable objects. In the above example, the graph will include objects B, C, E, G. 
+			<br/>
+			<b>Step-2:</b> The garbage collector scans the short weak reference table. If a pointer in the table refers to an object that is not part of the graph, then the pointer identifies an unreachable object and the slot in the short weak reference table is set to null. In the above example, slot of object D is set to null since it is not a part of the graph. 
+			<br/>
+			<b>Step-3:</b> The garbage collector scans the finalization queue. If a pointer in the queue refers to an object that is not part of the graph, then the pointer identifies an unreachable object and the pointer is moved from the finalization queue to the freachable queue. At this point, the object is added to the graph since the object is now considered reachable. In the above example, though objects A, D, F are not included in the graph they are treated as reachable objects because they are part of the finalization queue. Finalization queue thus gets emptied. 
+			<br/>
+			<b>Step-4:</b> The garbage collector scans the long weak reference table. If a pointer in the table refers to an object that is not part of the graph (which now contains the objects pointed to by entries in the freachable queue), then the pointer identifies an unreachable object and the slot is set to null. Since both the objects C and F are a part of the graph (of the previous step), none of them are set to null in the long reference table. 
+			<br/>
+			<b>Step-5:</b> The garbage collector compacts the memory, squeezing out the holes left by the unreachable objects. In the above example, object H is the only object that gets removed from the heap and it's memory is reclaimed. 
+		</p>
+		</div>
+	</div>	
+	
+
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<center>
+			<img src="images/gc_afterrunning.png" alt="after running"/>
+			<br/>
+			Fig.2 Scenario after the GC Run
+		</center>		
+		</div>
+	</div>	
+		
+
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>5.2) Generations.</h3>
+		<p>
+		Garbage collection cannot complete without stopping the entire program, they can cause arbitrarily long pauses at arbitrary times during the execution of the program. Garbage collection pauses can also prevent programs from responding to events quickly enough to satisfy the requirements of real-time systems.
+		</p>
+		
+		<p>
+		One feature of the GC that exists purely to improve performance is called generations. A generational GC takes into account two facts that have been empirically observed in most programs in a variety of languages:
+		<ol>
+			<li>Newly created objects tend to have short lives.</li>
+			<li>The older an object is, the longer it will survive.</li>	
+		</ol>
+		</p>
+		
+		<p>	
+		Generational collectors group objects by age and collect younger objects more often than older objects. When initialized, the managed heap contains no objects. All new objects added to the heap can be said to be in GEN-0, until the heap gets filled up which invokes garbage collection. As most objects are short-lived, only a small percentage of young objects are likely to survive their first collection. Once an object survives the first garbage collection, it gets promoted to GEN-1.
+		</p>
+
+		<p>
+		Newer objects after GC can then be said to be in GEN-0.The GC gets invoked next only when the sub-heap of GEN-0 gets filled up. All objects in GEN-1 that survive get compacted and promoted to GEN-2. All survivors in GEN-0 also get compacted and promoted to GEN-1. GEN-0 then contains no objects, but all newer objects after GC go into GEN-0. 
+		</p>
+
+		<p>
+		Thus, as objects "mature" (survive multiple garbage collections) in their current generation, they are moved to the next older generation. GEN-2 is the maximum generation supported by the runtime's garbage collector. When future collections occur, any surviving objects currently in GEN-2 simply stay in GEN-2.
+		</p>
+
+		<p>
+		Thus, dividing the heap into generations of objects and collecting and compacting younger generation objects improves the efficiency of the basic underlying garbage collection algorithm by reclaiming a significant amount of space from the heap and also being faster than if the collector had examined the objects in all generations.
+		</p>
+
+		<p>
+		A GC that can perform generational collections, each of which is guaranteed (or at least very likely) to require less than a certain maximum amount of time, can help make runtime suitable for real-time environment and also prevent pauses that are noticeable to the user.
+		</p>
+		</div>
+	</div>
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+	
+	
+
+	<!--  Programming with GC. -->
+	<div id="programminggc"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>6) Programming with GC.</h2>			
+		</div>		
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>6.1) Important Classes, Properties and Methods.</h3>			
+		</div>		
+	</div>	
+	
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>6.1.1) GC.MaxGeneration [PROPERTY]</h4>
+		<p>
+		The GC.MaxGeneration property is used to find the maximum number of generations that are supported by the system i.e. 2. If you will run this program on online compilers then you may get different outputs as it depends on the system.		
+		</p>
+		<p>
+			<pre>
+			using System; 
+			public class Demo 
+			{ 
+				// Main Method 
+				public static void Main(string[] args) 
+				{ 
+					Console.WriteLine("The number of generations are: " + GC.MaxGeneration); 
+				} 
+			}
+			
+			OUTPUT: The number of generations are: 2
+			</pre>
+		</p>
+		<p>
+			<center>
+				Code.1 GC.MaxGeneration code
+			</center>
+		</p>
+		</div>
+	</div>	
+
+	
+	
+	
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>6.1.2) GC.GetGeneration() [METHOD]</h4>
+		<p>
+		This method returns the generation number of the target object. It requires a single parameter i.e. the target object for which the generation number is required.		
+		</p>
+		<p>
+			<pre>
+				using System; 
+				public class Demo 
+				{ 
+					public static void Main(string[] args) 
+					{ 
+						Demo obj = new Demo(); 
+						Console.WriteLine("The generation number of object obj is: " + GC.GetGeneration(obj)); 
+					} 
+				}
+				
+				OUTPUT: The generation number of object obj is: 0
+			</pre>
+		</p>
+		<p>
+			<center>
+				Code.2 GC. GetGeneration () method.
+			</center>
+		</p>
+		</div>		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>6.1.3) GC.GetTotalMemory() [METHOD]</h4>
+		<p>
+		This method returns the number of bytes that are allocated in the system. It requires a single boolean parameter where true means that the method waits for the occurrence of garbage collection before returning and false means the opposite.
+		</p>
+		<p>
+			<pre>
+				using System; 
+				public class Demo 
+				{ 
+					public static void Main(string[] args) 
+					{ 
+						Demo obj = new Demo(); 
+						Console.WriteLine("The generation number of object obj is: " + GC.GetGeneration(obj)); 
+					} 
+				}
+				
+				OUTPUT:
+				Total Memory:4197120
+				The generation number of object obj is: 0
+				Total Memory:4204024
+			</pre>
+		</p>
+		<p>
+			<center>
+				Code.3 GC.GetTotalMemory () method.
+			</center>
+		</p>
+		</div>
+	</div>	
+
+
+
+
+
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h4>6.1.4) GC.Collect() [METHOD]</h4>
+		<p>
+		Garbage collection can be forced in the system using the GC.Collect() method. This method requires a single parameter i.e. number of the oldest generation for which garbage collection occurs.
+		</p>
+		<p>
+			<pre>
+				using System; 
+				public class Demo 
+				{ 
+
+					public static void Main(string[] args) 
+					{ 
+						GC.Collect(0); 
+						Console.WriteLine("Garbage Collection in Generation 0 is: " + GC.CollectionCount(0)); 
+					} 
+				}
+				OUTPUT: Garbage Collection in Generation 0 is: 1
+			</pre>
+		</p>
+		<p>
+			<center>
+					Code.4. GC.Collect() method
+			</center>
+		</p>
+		</div>		
+	</div>
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>		
+	
+	
+		
+	<!--  7) Finalization - The process of releasing Unmanaged Objects -->
+	<div id="finalization"/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>7) Finalization - The process of releasing Unmanaged Objects (theory).</h2>			
+		<p>
+		GC implicitly keeps track of the lifetime of the objects that an application creates, but fails when it comes to the unmanaged resources (i.e. a file, a window or a network connection) that objects encapsulate. The unmanaged resources must be explicitly released once the application has finished using them. 
+		</p>
+		
+		<p>
+		Object.Finalize() must run on the object to clean up its unmanaged resources, prior to reclaiming the memory used up by the object. Since Finalize() does nothing, by default, this method must be overridden if explicit cleanup is required. 
+		</p>
+		
+		<p>
+		It would not be surprising if you will consider Finalize just another name for destructors in C++. Though, both have been assigned the responsibility of freeing the resources used by the objects, they have very different semantics. In C++, destructors are executed immediately when the object goes out of scope whereas a finalize method is called once when Garbage collection gets around to cleaning up an object.
+		</p>
+		</div>		
+	</div>
+	<div class = "row" style="text-align:right;">
+			<input type="button" class="btn btn-success" value="Download code to demonstrate FINALIZATION CODE."/>
+			<br/>
+			<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+
+	<div id=""/>
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h3>7.1) The Finalization & the Freachable queue</h3>			
+		<p>
+		The potential existence of finalizers complicates the job of garbage collection in .Net by adding some extra steps before freeing an object. Whenever a new object, having a Finalize(), is allocated on the heap a pointer to the object is placed in an internal data structure called Finalization queue. When an object is not reachable, the GC considers the object garbage. 
+		</p>
+		<p>
+		The GC scans the finalization queue looking for pointers to these objects. When a pointer is found, the pointer is removed from the finalization queue and appended to another internal data structure called Freachable queue, making the object no longer a part of the garbage. At this point, the garbage collector has finished identifying garbage. 
+		</p>
+		<p>
+		The GC compacts the reclaimable memory and the special runtime thread empties the Freachable queue, executing each object's Finalize(). The next time the garbage collector is invoked, it sees that the finalized objects are truly garbage and the memory for those objects is then, simply freed. 
+		</p>
+		<p>
+		Thus when an object requires finalization, it dies, then lives (resurrects) and finally dies again. It is recommended to avoid using Finalize(), unless required. Finalize() increase memory pressure by not letting the memory and the resources used by that object to be released, until two garbage collections. Since you do not have control on the order in which the Finalize() are executed, it may lead to unpredictable results.
+		</p>
+		</div>		
+	</div>
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+	<!-- Q&A in Garbage Collector. -->
+	<div id="qa"/>	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+		<h2>8) Q&A in Garbage Collector.</h2>			
+		<p>	
+		<b><i>1) GC is necessarily slower than manual memory management.</b></i> 
+		<br/>
+		Not necessarily. Modern garbage collectors appear to run as quickly as manual storage allocators (malloc /free or new/delete). Garbage collection probably will not run as quickly as customized memory allocator designed for use in a specific program. On the other hand, the extra code required to make manual memory management work properly (for example, explicit reference counting) is often more expensive than a garbage collector would be. 
+		</p>
+
+
+		<p>	
+		<b><i>2) GC will necessarily make my program pause.</b></i> 
+		<br/>
+		Since garbage collectors usually stop the entire program while seeking and collecting garbage objects, they cause pauses long enough to be noticed by the users. But with the advent of modern optimization techniques, these noticeable pauses can be eliminated.
+		</p>
+
+
+		<p>	
+		<b><i>3) Manual memory management won't cause pauses.</b></i> 
+		<br/>
+		Manual memory management does not guarantee performance. It may cause pauses for considerable periods either on allocation or deallocation. 
+		</p>
+
+		<p>	
+		<b><i>4) Programs with GC are huge and bloated; GC isn't suitable for small programs or systems.</b></i>  
+		<br/>
+		Though using garbage collection is advantageous in complex systems, there is no reason for garbage collection to introduce any significant overhead at any scale.
+		</p>
+
+		<p>	
+		<b><i>5) I've heard that GC uses twice as much memory.</b></i> 
+		<br/>
+		This may be true of primitive GCs, but this is not generally true of garbage collection. The data structures used for GC need be no larger than those for manual memory management.
+		</p>
+		</div>		
+	</div>
+	<div class = "row" style="text-align:right;">
+		<a href="#top">Go to the top of the page</a>
+	</div>	
+	
+</div>
+</body>
+</html>
+
+
+

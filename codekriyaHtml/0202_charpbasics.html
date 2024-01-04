@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>.NET Framework</title>
+	<link rel= "stylesheet" href = "styles/Site.css" type="text/css"/>
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Definition:</h2>
+		</div>	
+	</div>
+	
+	<hr/>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			The <span>.NET Framework</span> is a <span>software framework</span> developed by Microsoft that runs primarily on top of Operating Systems (OS) like Windows, Linux, Mac os etc. Programmers, instead of writing code directly for the OS using programming languages (like C/C++), will now write code for the .NET framework using PL's like C#.NET or VB.NET.The software framework consists of 	
+		</div>	
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+				<ol class="square">
+					 <li>A <span>set of compilers</span> (C# compiler, VB.NET compiler, VC++.NET compiler, J# compiler etc.)</li>
+					 <li>The <span>Just In Time (JIT) compiler</span></li>
+					 <li>The <span>Common Language Runtime (CLR)</span></li>
+					 <li>The <span>MSIL (Microsoft Intermediate Language)</span> formats.</li>
+					 <li>Framework service components like Garbage Collector (GC), <span>Process Optimizer</span> etc.</li>
+				</ol>
+			Writing code for the .NET Framework using languages like C# and getting the output as MSIL, and then further compiling it to the native code (called as <span>2-STEP compilation</span>) has ONE BIG Advantage - <a href="#platformindependence">Platform Independence</a>.
+		</div>	
+	</div>
+	
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>The 2-STEP Compilation Process</h2>
+			<center>
+				<img src="images/CLR_ExecutionModel.png" alt="CLR_ExecutionModel"/>
+				<br/>
+				Fig.1 The .NET 2-Step compilation process.
+			</center>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id = "platformindependence" class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Platform Independence</h2>
+			<center>
+				<img src="images/Platform_Independence_01.png" alt="Platform_Independence"/>
+				<br/>
+				Fig.2 The Platform Independence 
+			</center>
+		</div>
+	</div>
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Components of the .NET Framework:</h2>
+		</div>	
+	</div>
+
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>C# Compiler</h3>
+			A compiler following the C# syntax and semantics which will convert C# source (*.cs) files into any one of these - Executables (exe), Libraries (dll) or Netmodules (netmodule).
+			<br/>
+			<b>For more details</b>  - <a href="">Source file Compiling options</a> 
+		</div>
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Common Language Runtime (CLR)</h3>
+			The Common Language Runtime (CLR), the <span>virtual machine component</span> of Microsoft .NET framework, manages the execution of .NET programs. Just-in-time compilation converts the <span>Managed code</span> (compiled <span>MSIL code</span>), into machine instructions which are then executed on the CPU of the computer.
+			<br/>
+			<br/>
+			The CLR provides additional services including <span>memory management, type safety, exception handling, garbage collection, security and thread management</span>. All programs written for the .NET framework, regardless of programming language, are executed by the CLR. All versions of the .NET framework include CLR. 
+			<br/>
+			<br/>
+			CLR implements the <span>Virtual Execution System (VES)</span> as defined in the <span>Common Language Infrastructure (CLI)</span> standard, initially developed by Microsoft itself. A public standard defines the Common Language Infrastructure specification.With Microsoft's move to .NET Core, the <span>CLI VES</span> implementation is known as <span>CoreCLR</span> instead of CLR.
+			<br/>
+			<br/>
+			<b>Note:</b> CLR is equivalent to <span>Java Virtual Machine (JVM)</span>.
+			<br/>
+			(<b>Source</b>: Wikipedia)
+		</div>
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>JIT Compiler</h3>
+			<span>Just In Time Compilers</span> (JIT compilers) converts the MSIL into the Native code using the CLR for that operating system. 
+		</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>CIL (Common Intermediate Language)</h3>
+			<span>Common Intermediate Language (CIL)</span>, formerly called Microsoft Intermediate Language (MSIL) or Intermediate Language (IL), is the <span>intermediate language binary instruction set</span> defined within the <span>Common Language Infrastructure (CLI)</span> specification. CIL instructions are executed by a CLI-compatible runtime environment such as the CLR. Languages which target the CLI compile to CIL. CIL is <span>object-oriented, stack-based bytecode</span>. Runtimes typically just-in-time compile <span>CIL instructions</span> into <span>native code</span>.
+			<br/>
+			(<b>Source</b>: Wikipedia)
+		</div>
+	</div>
+	
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h2>Features of the .NET Framework.</h2>
+		</div>
+	</div>
+
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Platform Independence and Reusability</h3>
+			A code component written for .NET framework and compiled as an <span>Assembly</span> can be executed in any OS (Windows, Linux, Mac-OS etc). The programmer need not re-write the whole logic again in a different language just because the OS is different. This way the component so developed is a re-usable component.
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Language interoperability</h3>
+			Code written in one .NET language and compiled into a package / library can be used in source code written in another .NET language. This is language interoperability and this is possible because of <span>Common Type System (CTS)</span>.
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Memory Management using GC</h3>
+			An actively running .NET application (running as a process in the underlying OS), allocates memory for newly created objects in the <span>managed heap area</span>. However, unlike other languages (say C++), the memory de-allocation is done using what is known as the <span>Garbage Collection process</span>, by the <span>Garbage Collector (GC)</span>. The GC runs in the background of the .NET process as a <span>'thread'</span>.
+		</div>
+	</div>
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Framework Class Library (FCL) Support</h3>
+			FCL is a set of classes that provides the <span>User interface, Data access, Database connectivity, Cryptography, Web application development, Numeric algorithms, and Network communications</span>. Programmers produce software by combining their source code with .NET Framework and other libraries. Fig.3 shows a part of a huge FCL with their classes depicted.
+		</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<center>
+				<img src="images/bcl_02_small.jpg" alt="Class Library"/>
+				<br/>
+				Fig.3. Part of the Framework Class Library (FCL).
+			</center>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Common Type System (CTS)</h3>
+			The <span>Common Type System</span> defines how types are declared, used, and managed in the common language runtime, and is also an important part of the runtime's support for cross-language integration. The common type system performs the following functions:
+		</div>
+	</div>
+	
+	
+	<div class = "row">
+		<div class="col-sm-12 normaltext">	
+			<ol>
+				<li>
+				Establishes a framework that helps enable cross-language integration, type safety, and high-performance code execution.
+				</li>
+				<li>
+				Provides an object-oriented model that supports the complete implementation of many programming languages.
+				</li>
+				<li>
+				Defines rules that languages must follow, which helps ensure that objects written in different languages can interact with each other.
+				</li>
+				<li>
+				Provides a library that contains the primitive data types (such as Boolean, Byte, Char, Int32, and UInt64) used in application development.
+				</li>
+			</ol>
+		</div>	
+	</div>
+
+	<div class = "row">
+		<div class="col-sm-12 normaltext">
+			<h3>Managed Code</h3>
+			Computer code written to target (run on top of) the .NET Framework is called "Managed code". Any code that doesn’t run top of the CLR will not be able to leverage the advantages offered by the CLR and hence will be called as <span>Un-Managed code</span>. They have to be dealt separately outside the ambit of the CLR by methods like <span>COM Callable Wrapper (CCW)</span> and <span>COM-Interop</span>.
+		</div>
+	</div>
+
+	
+</div>
+
+</body>
+</html>
+
+
+
